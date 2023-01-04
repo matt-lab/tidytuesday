@@ -42,7 +42,7 @@ investigators_in_decks <- data |>
     count(investigator_code) |>
     arrange(n) |>
     left_join(data_investigators, by = "investigator_code")
-# Identify months since release
+# Aggregate data so each row is an investigator
 investigators_in_decks <- investigators_in_decks |>
     group_by(investigator_name) |>
     summarise(
@@ -53,8 +53,7 @@ investigators_in_decks <- investigators_in_decks |>
         imagesrc = imagesrc[1]
     ) |>
     ungroup() |>
-    mutate(years_since_release =
-        interval(earliest_available, "2023-01-01") / years(1))
+    slice_max(n = 10, n)
 
 # Create images
 crop_investigator_card <- function(image_url) {
@@ -91,7 +90,6 @@ investigators_in_decks <- investigators_in_decks |>
         investigator_name == "Kymani Jones" ~ "https://derbk.com/ancientevils/wp-content/uploads/2022/09/kymani-4.png",
         investigator_name == "Vincent Lee" ~ "https://derbk.com/ancientevils/wp-content/uploads/2022/09/vincent1.png",
         !is.na(imagesrc) ~ str_c("https://arkhamdb.com", imagesrc))) |>
-    filter(investigator_name %in% c("William Yorick") | is.na(imagesrc)) |>
     rowwise() |>
     mutate(image_circle = crop_investigator_card(image)) |>
     ungroup()
@@ -119,7 +117,7 @@ my_theme <- function() {
         element_rect(fill = colour.background, colour = colour.background)) +
     
     # Format the grid
-    theme(panel.grid.major.y = element_line(colour = "#686868")) +
+    theme(panel.grid.major.y = element_blank()) +
     theme(panel.grid.minor.y = element_blank()) +
     theme(panel.grid.major.x = element_blank()) +
     theme(panel.grid.minor.x = element_blank()) +
@@ -157,43 +155,49 @@ faction_colours <- tibble(
         "#ff8f3f", "#2b80c5")
 )
 
-# This font is used for the plot:
-# font_add_google("Cutive Mono", "Cutive Mono")
-
+# Plot specifications
+font_add_google("Cutive Mono", "Cutive Mono")
 showtext_opts(dpi = 300)
 showtext_auto(enable = TRUE)
+
 plot <- investigators_in_decks |>
     left_join(faction_colours, by = "faction") |>
-    ggplot(aes(years_since_release, n)) +
+    mutate(rank = order(n)) |>
+    ggplot(aes(rank, n)) +
+    geom_bar(aes(colour = faction_colour), stat = "identity", width = 0.02) +
     geom_image(
         mapping = aes(image = image_circle, colour = faction_colour),
         size = 0.069,
-        asp = 1,
-        alpha = 0.5) +
+        asp = 1) +
     geom_image(
         mapping = aes(image = image_circle),
         size = 0.06,
         asp = 1) +
     scale_colour_identity() +
+    geom_text(
+        aes(label = investigator_name),
+        size = 8,
+        hjust = 1.2,
+        vjust = -0.5,
+        colour = "#dbdbdb",
+        fontface = "bold",
+        family = "Cutive Mono") +
+    ylab("Number of decks made in 2022") +
     scale_y_continuous(
         breaks = seq(
-            50,
+            0,
             ceiling(max(investigators_in_decks$n) / 50) * 50,
             50),
         limits = c(
             0,
             ceiling(max(investigators_in_decks$n) / 50) * 50)) +
-    scale_x_continuous(
-        breaks = seq(
-            0,
-            ceiling(max(investigators_in_decks$years_since_release)),
-            1),
-        limits = c(
-            0,
-            ceiling(max(investigators_in_decks$years_since_release)))) +
-    #ylim(0, (max(investigators_in_decks$n) %/% 100 + 1) * 100) +
-    xlab("Years since investigator was released") +
-    ylab("Number of decks made in 2022") +
-    my_theme()
-plot
-ggsave("plot.png", width = 10, height = 10, units = "in", dpi = 300)
+    coord_flip() +
+    my_theme() +
+    theme(panel.border = element_blank()) +
+    theme(axis.text.y = element_blank()) +
+    theme(axis.title.y = element_blank()) +
+    theme(axis.text.x = element_text(size = 20, color = "#dbdbdb")) +
+    theme(axis.title.x = element_text(size = 25, color = "#dbdbdb")) +
+    theme(legend.position = "none")
+ggbackground(plot, "assets/background.png")
+ggsave("top_investigators.png", width = 10, height = 10, units = "in", dpi = 300)
