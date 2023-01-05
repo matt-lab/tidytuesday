@@ -19,7 +19,16 @@ The data for this week concerns Arkham Horror, a cooperative card game where pla
 
 ### Top cards of 2022, for each faction
 
-![image](top_investigators_edge.png)
+![image](top_cards_guardian.png)
+
+![image](top_cards_mystic.png)
+
+![image](top_cards_rogue.png)
+
+![image](top_cards_seeker.png)
+
+![image](top_cards_survivor.png)
+
 
 ## Data Dictionary
 
