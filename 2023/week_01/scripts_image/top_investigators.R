@@ -9,7 +9,7 @@ library(ggtext) # for text
 data <- read_csv(
     "deck.csv",
     col_types = cols(
-        id = col_integer(),
+        id = col_character(),
         name = col_character(),
         date_creation = col_datetime(format = ""),
         date_update = col_datetime(format = ""),
@@ -50,10 +50,10 @@ investigators_in_decks <- investigators_in_decks |>
         faction = unique(faction_code),
         investigator_name = unique(investigator_name),
         n = sum(n),
-        imagesrc = imagesrc[1]
+        imagesrc = imagesrc[1],
+        pack_code = pack_code[1]
     ) |>
-    ungroup() |>
-    slice_max(n = 10, n)
+    ungroup()
 
 # Create images
 crop_investigator_card <- function(image_url) {
@@ -89,13 +89,11 @@ investigators_in_decks <- investigators_in_decks |>
         investigator_name == "Darrell Simmons" ~ "https://derbk.com/ancientevils/wp-content/uploads/2022/08/darrell1.png",
         investigator_name == "Kymani Jones" ~ "https://derbk.com/ancientevils/wp-content/uploads/2022/09/kymani-4.png",
         investigator_name == "Vincent Lee" ~ "https://derbk.com/ancientevils/wp-content/uploads/2022/09/vincent1.png",
-        !is.na(imagesrc) ~ str_c("https://arkhamdb.com", imagesrc))) |>
-    rowwise() |>
-    mutate(image_circle = crop_investigator_card(image)) |>
-    ungroup()
+        !is.na(imagesrc) ~ str_c("https://arkhamdb.com", imagesrc)))
 
-#### Create data ####
+#### Create plots ####
 
+# Specifications
 my_theme <- function() {
     # colour
     colour.background = "#030303"
@@ -139,24 +137,35 @@ my_theme <- function() {
 }
 
 faction_colours <- tibble(
-    faction = c("mystic", "rogue", "survivor", "seeker", "guardian"),
+    faction = c(
+        "mystic", "rogue", "survivor",
+        "seeker", "guardian", "neutral"),
     faction_colour = c(
         "#4a4296", "#107116", "#cc3038",
-        "#ff8f3f", "#2b80c5")
+        "#ff8f3f", "#2b80c5", "#696969")
 )
 
-# Plot specifications
+# Roboto Mono is required for plot
 main_font <- "Roboto Mono"
 font_add_google(main_font, main_font)
 showtext_opts(dpi = 300)
 showtext_auto(enable = TRUE)
 
 # Top investigators
-plot <- investigators_in_decks |>
+top_investigators <- investigators_in_decks |>
+    slice_max(n = 10, n) |>
+    rowwise() |>
+    mutate(image_circle = crop_investigator_card(image)) |>
+    ungroup()
+
+plot <- top_investigators |>
     left_join(faction_colours, by = "faction") |>
     mutate(rank = order(n)) |>
     ggplot(aes(rank, n)) +
-    geom_bar(aes(colour = faction_colour), stat = "identity", width = 0.02) +
+    geom_bar(
+        mapping = aes(colour = faction_colour, fill = faction_colour),
+        stat = "identity",
+        width = 0.02) +
     geom_image(
         mapping = aes(image = image_circle, colour = faction_colour),
         size = 0.069,
@@ -166,6 +175,7 @@ plot <- investigators_in_decks |>
         size = 0.06,
         asp = 1) +
     scale_colour_identity() +
+    scale_fill_identity() +
     geom_text(
         aes(label = investigator_name),
         size = 8,
@@ -178,11 +188,11 @@ plot <- investigators_in_decks |>
     scale_y_continuous(
         breaks = seq(
             0,
-            ceiling(max(investigators_in_decks$n) / 50) * 50,
+            ceiling(max(top_investigators$n) / 50) * 50,
             50),
         limits = c(
             0,
-            ceiling(max(investigators_in_decks$n) / 50) * 50)) +
+            ceiling(max(top_investigators$n) / 50) * 50)) +
     coord_flip() +
     annotate(
         "text", x = 3.5, y = 200,
@@ -193,7 +203,7 @@ plot <- investigators_in_decks |>
         "text", x = 3, y = 200,
         label = str_c(
             str_wrap(
-                '"Ashcan" Pete was the most popular investigator of 2022.',
+                '"Ashcan" Pete and good boy Duke are top of the ten most popular investigators of 2022.',
                 27),
             '\nData from ArkhamDB.'),
         hjust = 0.5, vjust =1,
@@ -203,11 +213,19 @@ plot
 ggsave("top_investigators.png", width = 10, height = 10, units = "in", dpi = 300)
 
 # Top Scarlet Keys investigators
-plot <- investigators_in_decks |>
+top_investigators_edge <- investigators_in_decks |>
+    filter(pack_code == 'eoep') |>
+    rowwise() |>
+    mutate(image_circle = crop_investigator_card(image)) |>
+    ungroup()
+
+plot <- top_investigators_edge |>
     left_join(faction_colours, by = "faction") |>
     mutate(rank = order(n)) |>
     ggplot(aes(rank, n)) +
-    geom_bar(aes(colour = faction_colour), stat = "identity", width = 0.02) +
+    geom_bar(
+        aes(colour = faction_colour, fill = faction_colour),
+        stat = "identity", width = 0.02) +
     geom_image(
         mapping = aes(image = image_circle, colour = faction_colour),
         size = 0.069,
@@ -217,6 +235,7 @@ plot <- investigators_in_decks |>
         size = 0.06,
         asp = 1) +
     scale_colour_identity() +
+    scale_fill_identity() +
     geom_text(
         aes(label = investigator_name),
         size = 8,
@@ -229,26 +248,49 @@ plot <- investigators_in_decks |>
     scale_y_continuous(
         breaks = seq(
             0,
-            ceiling(max(investigators_in_decks$n) / 50) * 50,
-            50),
+            ceiling(max(top_investigators_edge$n) / 25) * 25,
+            25),
         limits = c(
             0,
-            ceiling(max(investigators_in_decks$n) / 50) * 50)) +
+            ceiling(max(top_investigators_edge$n) / 25) * 25)) +
     coord_flip() +
     annotate(
-        "text", x = 3.5, y = 200,
-        label = "Year of the Dog",
+        "text", x = 2.5, y = 90,
+        label = "Destined to succeed",
         hjust = 0.5, vjust = 1,
         size = 10, fontface = "bold", family = main_font, colour = "#dbdbdb") +
     annotate(
-        "text", x = 3, y = 200,
+        "text", x = 2.3, y = 90,
         label = str_c(
             str_wrap(
-                '"Ashcan" Pete was the most popular investigator of 2022.',
+                'Lily is the most popular Edge of the Earth investigator of 2022.',
                 27),
             '\nData from ArkhamDB.'),
-        hjust = 0.5, vjust =1,
+        hjust = 0.5, vjust = 1,
         size = 7, family = main_font, colour = "#d7d7d7") +
     my_theme()
 plot
-ggsave("top_investigators.png", width = 10, height = 10, units = "in", dpi = 300)
+ggsave("top_investigators_edge.png", width = 10, height = 10, units = "in", dpi = 300)
+
+
+#### Top cards ####
+cards_in_decks <- read_csv(
+    file = 'cards_in_decks.csv',
+    col_types = cols(
+        id = col_character(),
+        card_id = col_character(),
+        card_quantity = col_double())) |>
+    filter(card_quantity > 0)
+
+# Filter to only first version of decks
+cards_in_decks <- data |>
+    filter(version == 1) |>
+    select(id) |>
+    left_join(cards_in_decks, by = 'id')
+
+# Identify popular cards
+popular_cards <- cards_in_decks |>
+    count(card_id) |>
+    slice_max(n = 20, n)
+
+
