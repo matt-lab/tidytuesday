@@ -30,6 +30,8 @@ if (file.exists("cards_in_decks.csv")) {
         "pack_code",
         "faction_code",
         "name",
+        "xp",
+        "type_code",
         "imagesrc")
 
     cards <- response |>

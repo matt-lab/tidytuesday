@@ -1,21 +1,1358 @@
-card_id,n
-01000,2656
-01088,1518
-01093,1388
-01089,1243
-01090,1109
-01091,1047
-01025,892
-01065,815
-01087,803
-01039,771
-01080,767
-08125,755
-01092,676
-01033,605
-01030,575
-03039,558
-02022,535
-01059,530
-02158,517
-02184,511
+code,pack_code,faction_code,name,type_code,xp,imagesrc
+01000,core,neutral,Random Basic Weakness,treachery,NA,NA
+01093,core,neutral,Unexpected Courage,skill,0,/bundles/cards/01093.png
+01693,rcore,neutral,Emergency Cache,event,2,/bundles/cards/01693.png
+02035,dwl,survivor,Peter Sylvestre,asset,2,/bundles/cards/02035.png
+02115,tmm,survivor,Flare,event,1,/bundles/cards/02115.png
+02157,tece,neutral,Relic Hunter,asset,3,/bundles/cards/02157.png
+02158,tece,neutral,Charisma,asset,3,/bundles/cards/02158.png
+02227,uau,seeker,Inquiring Mind,skill,0,/bundles/cards/02227.png
+02229,uau,rogue,Quick Thinking,skill,0,/bundles/cards/02229.png
+02234,uau,survivor,Dark Horse,asset,0,/bundles/cards/02234.png
+03114,eotp,survivor,Cherished Keepsake,asset,0,/bundles/cards/03114.png
+04112,tof,survivor,Stunning Blow,skill,0,/bundles/cards/04112.png
+04147,tof,neutral,Ichtaca,asset,NA,/bundles/cards/04147.png
+04276,tdoy,neutral,Timeworn Brand,asset,5,/bundles/cards/04276.png
+05022,tcu,guardian,Steadfast,skill,0,/bundles/cards/05022.png
+05026,tcu,seeker,Curiosity,skill,0,/bundles/cards/05026.png
+05114,tsn,survivor,Meat Cleaver,asset,0,/bundles/cards/05114.png
+05195,fgg,survivor,Grisly Totem,asset,3,/bundles/cards/05195.png
+06118,sfk,survivor,Jessica Hyde,asset,1,/bundles/cards/06118.png
+07014,tic,neutral,Sea Change Harpoon,asset,NA,/bundles/cards/07014.png
+07015,tic,neutral,Silas's Net,asset,NA,/bundles/cards/07015.png
+07016,tic,neutral,Siren Call,treachery,NA,/bundles/cards/07016.png
+07196,hhg,survivor,Unrelenting,skill,1,/bundles/cards/07196.png
+51010,rtdwl,survivor,Rise to the Occasion,skill,3,/bundles/cards/51010.png
+53011,rttfa,neutral,Backpack,asset,2,/bundles/cards/53011.png
+81029,cotr,neutral,Curse of the Rougarou,treachery,NA,/bundles/cards/81029.png
+81030,cotr,neutral,Monstrous Transformation,asset,NA,/bundles/cards/81030.png
+84006,hotel,neutral,Bloodstained Dagger,asset,NA,/bundles/cards/84006.png
+84007,hotel,neutral,What Have You Done?,treachery,NA,/bundles/cards/84007.png
+01088,core,neutral,Emergency Cache,event,0,/bundles/cards/01088.png
+02032,dwl,survivor,Fire Axe,asset,0,/bundles/cards/02032.png
+02033,dwl,survivor,Peter Sylvestre,asset,0,/bundles/cards/02033.png
+02192,bota,survivor,Rise to the Occasion,skill,0,/bundles/cards/02192.png
+03039,ptc,survivor,Resourceful,skill,0,/bundles/cards/03039.png
+03272,bsr,survivor,"""Not without a fight!""",skill,0,/bundles/cards/03272.png
+04033,tfa,survivor,Improvised Weapon,event,0,/bundles/cards/04033.png
+04037,tfa,neutral,Backpack,asset,0,/bundles/cards/04037.png
+01031,core,seeker,Old Book of Lore,asset,0,/bundles/cards/01031.png
+01032,core,seeker,Research Librarian,asset,0,/bundles/cards/01032.png
+01033,core,seeker,Dr. Milan Christopher,asset,0,/bundles/cards/01033.png
+01034,core,seeker,Hyperawareness,asset,0,/bundles/cards/01034.png
+01035,core,seeker,Medical Texts,asset,0,/bundles/cards/01035.png
+01036,core,seeker,Mind over Matter,event,0,/bundles/cards/01036.png
+01079,core,survivor,"""Look what I found!""",event,0,/bundles/cards/01079.png
+01080,core,survivor,Lucky!,event,0,/bundles/cards/01080.png
+01081,core,survivor,Survival Instinct,skill,0,/bundles/cards/01081.png
+01086,core,neutral,Knife,asset,0,/bundles/cards/01086.png
+01087,core,neutral,Flashlight,asset,0,/bundles/cards/01087.png
+01089,core,neutral,Guts,skill,0,/bundles/cards/01089.png
+01090,core,neutral,Perception,skill,0,/bundles/cards/01090.png
+01091,core,neutral,Overpower,skill,0,/bundles/cards/01091.png
+01092,core,neutral,Manual Dexterity,skill,0,/bundles/cards/01092.png
+02107,tmm,seeker,"""I've got a plan!""",event,0,/bundles/cards/02107.png
+02117,tmm,neutral,Painkillers,asset,0,/bundles/cards/02117.png
+03024,ptc,seeker,Fieldwork,asset,0,/bundles/cards/03024.png
+03108,eotp,seeker,Anatomical Diagrams,event,0,/bundles/cards/03108.png
+03155,tuo,survivor,Fight or Flight,event,0,/bundles/cards/03155.png
+03191,apot,seeker,Logical Reasoning,event,0,/bundles/cards/03191.png
+03231,tpm,seeker,Eureka!,skill,0,/bundles/cards/03231.png
+04111,tof,survivor,Perseverance,event,0,/bundles/cards/04111.png
+04200,hote,survivor,Live and Learn,event,0,/bundles/cards/04200.png
+04203,hote,neutral,Trench Coat,asset,0,/bundles/cards/04203.png
+05024,tcu,seeker,Fingerprint Kit,asset,0,/bundles/cards/05024.png
+05110,tsn,seeker,Crack the Case,event,0,/bundles/cards/05110.png
+05153,wos,seeker,"Mr. ""Rook""",asset,0,/bundles/cards/05153.png
+06008,tde,neutral,Occult Evidence,event,NA,/bundles/cards/06008.png
+06009,tde,neutral,Shocking Discovery,treachery,NA,/bundles/cards/06009.png
+06112,sfk,seeker,Dream Diary,asset,0,/bundles/cards/06112.png
+60205,har,seeker,Arcane Enlightenment,asset,0,/bundles/cards/60205.png
+60207,har,seeker,Disc of Itzamna,asset,0,/bundles/cards/60207.png
+60208,har,seeker,Encyclopedia,asset,0,/bundles/cards/60208.png
+60209,har,seeker,Feed the Mind,asset,0,/bundles/cards/60209.png
+60214,har,seeker,Burning the Midnight Oil,event,0,/bundles/cards/60214.png
+01058,core,mystic,Forbidden Knowledge,asset,0,/bundles/cards/01058.png
+03271,bsr,mystic,Arcane Initiate,asset,3,/bundles/cards/03271.png
+06117,sfk,mystic,Read the Signs,event,0,/bundles/cards/06117.png
+06165,tsh,survivor,Scrounge for Supplies,event,0,/bundles/cards/06165.png
+07020,tic,guardian,Hand of Fate,event,0,/bundles/cards/07020.png
+07031,tic,mystic,Ward of Radiance,event,0,/bundles/cards/07031.png
+07033,tic,survivor,Token of Faith,asset,0,/bundles/cards/07033.png
+07034,tic,survivor,Keep Faith,event,0,/bundles/cards/07034.png
+07037,tic,neutral,Tempt Fate,event,0,/bundles/cards/07037.png
+07153,def,guardian,Radiant Smite,event,1,/bundles/cards/07153.png
+07162,def,neutral,Manipulate Destiny,event,2,/bundles/cards/07162.png
+07261,lod,guardian,Enchant Weapon,event,3,/bundles/cards/07261.png
+07272,lod,neutral,Favor of the Sun,asset,1,/bundles/cards/07272.png
+07301,itm,guardian,Hallow,event,3,/bundles/cards/07301.png
+08102,eoep,seeker,Protecting the Anirniq,event,2,/bundles/cards/08102.png
+08118,eoep,mystic,Enchanted Bow,asset,2,/bundles/cards/08118.png
+08120,eoep,guardian,Prophetic,asset,3,/bundles/cards/08120.png
+99002,promo,neutral,Mystifying Song,event,NA,/bundles/cards/99002.png
+99003,promo,neutral,Baron Samedi,asset,NA,/bundles/cards/99003.png
+01038,core,seeker,Barricade,event,0,/bundles/cards/01038.png
+01044,core,rogue,Switchblade,asset,0,/bundles/cards/01044.png
+01045,core,rogue,Burglary,asset,0,/bundles/cards/01045.png
+01047,core,rogue,.41 Derringer,asset,0,/bundles/cards/01047.png
+01048,core,rogue,Leo De Luca,asset,0,/bundles/cards/01048.png
+01049,core,rogue,Hard Knocks,asset,0,/bundles/cards/01049.png
+03026,ptc,seeker,No Stone Unturned,event,0,/bundles/cards/03026.png
+03151,tuo,rogue,Dario El-Amin,asset,0,/bundles/cards/03151.png
+03233,tpm,rogue,"""Watch this!""",skill,0,/bundles/cards/03233.png
+03265,bsr,seeker,Guidance,event,0,/bundles/cards/03265.png
+04155,tbb,rogue,Hatchet Man,skill,0,/bundles/cards/04155.png
+04268,tdoy,rogue,Colt Vest Pocket,asset,0,/bundles/cards/04268.png
+05028,tcu,rogue,Well Connected,asset,0,/bundles/cards/05028.png
+05155,wos,rogue,Henry Wan,asset,0,/bundles/cards/05155.png
+05233,uad,rogue,Investments,asset,0,/bundles/cards/05233.png
+06010,tde,neutral,Bounty Contracts,asset,NA,/bundles/cards/06010.png
+06011,tde,neutral,Tony's .38 Long Colt,asset,NA,/bundles/cards/06011.png
+06012,tde,neutral,Tony's Quarry,enemy,NA,/bundles/cards/06012.png
+06023,tde,seeker,Astounding Revelation,event,0,/bundles/cards/06023.png
+06024,tde,rogue,Crystallizer of Dreams,asset,0,/bundles/cards/06024.png
+07027,tic,rogue,Obfuscation,asset,0,/bundles/cards/07027.png
+01008,core,neutral,Daisy's Tote Bag,asset,NA,/bundles/cards/01008.png
+01009,core,neutral,The Necronomicon,asset,NA,/bundles/cards/01009.png
+01037,core,seeker,Working a Hunch,event,0,/bundles/cards/01037.png
+01040,core,seeker,Magnifying Glass,asset,1,/bundles/cards/01040.png
+01041,core,seeker,Disc of Itzamna,asset,2,/bundles/cards/01041.png
+01042,core,seeker,Encyclopedia,asset,2,/bundles/cards/01042.png
+01059,core,mystic,Holy Rosary,asset,0,/bundles/cards/01059.png
+01065,core,mystic,Ward of Protection,event,0,/bundles/cards/01065.png
+01097,core,neutral,Paranoia,treachery,NA,/bundles/cards/01097.png
+01099,core,neutral,Psychosis,treachery,NA,/bundles/cards/01099.png
+02022,dwl,seeker,Shortcut,event,0,/bundles/cards/02022.png
+02030,dwl,mystic,Clarity of Mind,asset,0,/bundles/cards/02030.png
+02061,dwl,neutral,Professor Warren Rice,asset,NA,/bundles/cards/02061.png
+02108,tmm,seeker,Pathfinder,asset,1,/bundles/cards/02108.png
+02150,tece,seeker,Deduction,skill,2,/bundles/cards/02150.png
+02262,wda,seeker,Strange Solution,asset,4,/bundles/cards/02262.png
+01010,core,neutral,On the Lam,event,NA,/bundles/cards/01010.png
+01011,core,neutral,Hospital Debts,treachery,NA,/bundles/cards/01011.png
+01016,core,guardian,.45 Automatic,asset,0,/bundles/cards/01016.png
+01020,core,guardian,Machete,asset,0,/bundles/cards/01020.png
+01023,core,guardian,Dodge,event,0,/bundles/cards/01023.png
+01025,core,guardian,Vicious Blow,skill,0,/bundles/cards/01025.png
+01026,core,guardian,Extra Ammunition,event,1,/bundles/cards/01026.png
+01027,core,guardian,Police Badge,asset,2,/bundles/cards/01027.png
+01050,core,rogue,Elusive,event,0,/bundles/cards/01050.png
+01051,core,rogue,Backstab,event,0,/bundles/cards/01051.png
+01052,core,rogue,Sneak Attack,event,0,/bundles/cards/01052.png
+01054,core,rogue,Leo De Luca,asset,1,/bundles/cards/01054.png
+01055,core,rogue,Cat Burglar,asset,1,/bundles/cards/01055.png
+01057,core,rogue,Hot Streak,event,4,/bundles/cards/01057.png
+02038,dwl,neutral,Internal Injury,treachery,NA,/bundles/cards/02038.png
+02040,dwl,neutral,Dr. Henry Armitage,asset,NA,/bundles/cards/02040.png
+02080,dwl,neutral,Dr. Francis Morgan,asset,NA,/bundles/cards/02080.png
+02147,tece,guardian,Bandolier,asset,0,/bundles/cards/02147.png
+02188,bota,rogue,Lone Wolf,asset,0,/bundles/cards/02188.png
+02218,bota,neutral,Earl Sawyer,asset,NA,/bundles/cards/02218.png
+02273,wda,neutral,Moment of Respite,event,3,/bundles/cards/02273.png
+02299,litas,guardian,Vicious Blow,skill,2,/bundles/cards/02299.png
+02304,litas,rogue,Chicago Typewriter,asset,4,/bundles/cards/02304.png
+01077,core,survivor,Dig Deep,asset,0,/bundles/cards/01077.png
+01117,core,neutral,Lita Chantler,asset,NA,/bundles/cards/01117.png
+02266,wda,rogue,Ace in the Hole,event,3,/bundles/cards/02266.png
+04028,tfa,rogue,"""You handle this one!""",event,0,/bundles/cards/04028.png
+04201,hote,survivor,Take Heart,skill,0,/bundles/cards/04201.png
+05011,tcu,neutral,Family Inheritance,asset,NA,/bundles/cards/05011.png
+05012,tcu,neutral,"Lodge ""Debts""",event,NA,/bundles/cards/05012.png
+05111,tsn,rogue,Intel Report,event,0,/bundles/cards/05111.png
+05159,wos,survivor,Drawing Thin,asset,0,/bundles/cards/05159.png
+05277,icc,rogue,Small Favor,event,0,/bundles/cards/05277.png
+05281,icc,survivor,Trial by Fire,event,0,/bundles/cards/05281.png
+60329,win,rogue,Backstab,event,3,/bundles/cards/60329.png
+05036,tcu,survivor,Track Shoes,asset,0,/bundles/cards/05036.png
+60311,win,rogue,Streetwise,asset,0,/bundles/cards/60311.png
+01067,core,mystic,Fearless,skill,0,/bundles/cards/01067.png
+02235,uau,survivor,Survival Instinct,skill,2,/bundles/cards/02235.png
+06166,tsh,survivor,Brute Force,skill,1,/bundles/cards/06166.png
+06204,dsm,survivor,Sharp Vision,skill,1,/bundles/cards/06204.png
+08052,eoep,rogue,Savant,skill,1,/bundles/cards/08052.png
+08078,eoep,survivor,Dauntless Spirit,skill,1,/bundles/cards/08078.png
+08080,eoep,survivor,Fire Extinguisher,asset,3,/bundles/cards/08080.png
+08081,eoep,survivor,Plucky,asset,3,/bundles/cards/08081.png
+08107,eoep,seeker,Ice Pick,asset,3,/bundles/cards/08107.png
+08122,eoep,guardian,Bruiser,asset,3,/bundles/cards/08122.png
+60526,ste,survivor,Unexpected Courage,skill,2,/bundles/cards/60526.png
+06111,sfk,guardian,Daring,skill,0,/bundles/cards/06111.png
+07121,itd,survivor,Mariner's Compass,asset,0,/bundles/cards/07121.png
+08072,eoep,survivor,Schoffner's Catalogue,asset,0,/bundles/cards/08072.png
+01017,core,guardian,Physical Training,asset,0,/bundles/cards/01017.png
+01022,core,guardian,Evidence!,event,0,/bundles/cards/01022.png
+01060,core,mystic,Shrivelling,asset,0,/bundles/cards/01060.png
+01064,core,mystic,Drawn to the Flame,event,0,/bundles/cards/01064.png
+03033,ptc,mystic,Uncage the Soul,event,0,/bundles/cards/03033.png
+03112,eotp,mystic,David Renfield,asset,0,/bundles/cards/03112.png
+04017,tfa,guardian,Survival Knife,asset,0,/bundles/cards/04017.png
+05032,tcu,mystic,Deny Existence,event,0,/bundles/cards/05032.png
+05118,tsn,mystic,Enchanted Blade,asset,0,/bundles/cards/05118.png
+05158,wos,mystic,Sixth Sense,asset,0,/bundles/cards/05158.png
+06201,dsm,mystic,Spectral Razor,event,0,/bundles/cards/06201.png
+08015,eoep,neutral,Burden of Destiny,treachery,NA,/bundles/cards/08015.png
+08060,eoep,mystic,Dragon Pole,asset,0,/bundles/cards/08060.png
+08061,eoep,mystic,Meditative Trance,event,0,/bundles/cards/08061.png
+60107,nat,guardian,Grete Wagner,asset,0,/bundles/cards/60107.png
+03029,ptc,rogue,Sleight of Hand,event,0,/bundles/cards/03029.png
+01039,core,seeker,Deduction,skill,0,/bundles/cards/01039.png
+01062,core,mystic,Arcane Studies,asset,0,/bundles/cards/01062.png
+03032,ptc,mystic,Alchemical Transmutation,asset,0,/bundles/cards/03032.png
+03196,apot,mystic,Quantum Flux,event,0,/bundles/cards/03196.png
+04157,tbb,mystic,Enraptured,skill,0,/bundles/cards/04157.png
+06013,tde,neutral,Gate Box,asset,NA,/bundles/cards/06013.png
+06014,tde,neutral,Detached from Reality,treachery,NA,/bundles/cards/06014.png
+06029,tde,mystic,Open Gate,event,0,/bundles/cards/06029.png
+60406,jac,mystic,Scrying Mirror,asset,0,/bundles/cards/60406.png
+60408,jac,mystic,Clairvoyance,asset,0,/bundles/cards/60408.png
+01018,core,guardian,Beat Cop,asset,0,/bundles/cards/01018.png
+01019,core,guardian,First Aid,asset,0,/bundles/cards/01019.png
+01024,core,guardian,Dynamite Blast,event,0,/bundles/cards/01024.png
+02006,dwl,neutral,Zoey's Cross,asset,NA,/bundles/cards/02006.png
+02007,dwl,neutral,Smite the Wicked,treachery,NA,/bundles/cards/02007.png
+02028,dwl,mystic,Rite of Seeking,asset,0,/bundles/cards/02028.png
+02184,bota,guardian,Prepared for the Worst,event,0,/bundles/cards/02184.png
+03020,ptc,guardian,.32 Colt,asset,0,/bundles/cards/03020.png
+03022,ptc,guardian,"""Let me handle this!""",event,0,/bundles/cards/03022.png
+03189,apot,guardian,"""I'll see you in hell!""",event,0,/bundles/cards/03189.png
+04265,tdoy,guardian,Handcuffs,asset,0,/bundles/cards/04265.png
+05151,wos,guardian,Alice Luxley,asset,0,/bundles/cards/05151.png
+07017,tic,guardian,Book of Psalms,asset,0,/bundles/cards/07017.png
+60106,nat,guardian,Flesh Ward,asset,0,/bundles/cards/60106.png
+60110,nat,guardian,Safeguard,asset,0,/bundles/cards/60110.png
+01021,core,guardian,Guard Dog,asset,0,/bundles/cards/01021.png
+02116,tmm,neutral,Smoking Pipe,asset,0,/bundles/cards/02116.png
+03023,ptc,guardian,Ever Vigilant,event,1,/bundles/cards/03023.png
+03263,bsr,guardian,On the Hunt,event,0,/bundles/cards/03263.png
+04150,tbb,guardian,Take the Initiative,skill,0,/bundles/cards/04150.png
+06167,tsh,neutral,Versatile,asset,2,/bundles/cards/06167.png
+08020,eoep,guardian,Toe to Toe,event,0,/bundles/cards/08020.png
+08125,eoep,neutral,In the Thick of It,asset,0,/bundles/cards/08125.png
+53012,rttfa,neutral,Dendromorphosis,asset,NA,/bundles/cards/53012.png
+60102,nat,guardian,Randall Cho,asset,NA,/bundles/cards/60102.png
+60103,nat,neutral,Tommy Malloy,enemy,NA,/bundles/cards/60103.png
+60105,nat,guardian,Boxing Gloves,asset,0,/bundles/cards/60105.png
+60111,nat,guardian,Clean Them Out,event,0,/bundles/cards/60111.png
+60112,nat,guardian,Counterpunch,event,0,/bundles/cards/60112.png
+60115,nat,guardian,Glory,event,0,/bundles/cards/60115.png
+60116,nat,guardian,Monster Slayer,event,0,/bundles/cards/60116.png
+60117,nat,guardian,One-Two Punch,event,0,/bundles/cards/60117.png
+03198,apot,survivor,Madame Labranche,asset,0,/bundles/cards/03198.png
+04272,tdoy,survivor,Winging It,event,0,/bundles/cards/04272.png
+05157,wos,mystic,Wither,asset,0,/bundles/cards/05157.png
+06016,tde,neutral,Patrice's Violin,asset,NA,/bundles/cards/06016.png
+06017,tde,neutral,Watcher from Another Dimension,enemy,NA,/bundles/cards/06017.png
+06203,dsm,survivor,Moonstone,asset,0,/bundles/cards/06203.png
+06245,pnr,survivor,A Glimmer of Hope,event,0,/bundles/cards/06245.png
+07029,tic,mystic,Sword Cane,asset,0,/bundles/cards/07029.png
+07032,tic,mystic,Promise of Power,skill,0,/bundles/cards/07032.png
+08071,eoep,survivor,Short Supply,asset,0,/bundles/cards/08071.png
+60513,ste,survivor,A Test of Will,event,0,/bundles/cards/60513.png
+03153,tuo,mystic,Storm of Spirits,event,0,/bundles/cards/03153.png
+03269,bsr,mystic,St. Hubert's Key,asset,0,/bundles/cards/03269.png
+05154,wos,seeker,Hawk-Eye Folding Camera,asset,0,/bundles/cards/05154.png
+08031,eoep,seeker,Forced Learning,asset,0,/bundles/cards/08031.png
+08108,eoep,rogue,Ethereal Slip,event,0,/bundles/cards/08108.png
+60412,jac,mystic,Robes of Endless Night,asset,0,/bundles/cards/60412.png
+04027,tfa,rogue,Eavesdrop,event,0,/bundles/cards/04027.png
+04107,tof,rogue,Lucky Cigarette Case,asset,0,/bundles/cards/04107.png
+06162,tsh,rogue,Gregory Gry,asset,0,/bundles/cards/06162.png
+07114,itd,rogue,Breaking and Entering,event,0,/bundles/cards/07114.png
+08008,eoep,neutral,Trusty Bullwhip,asset,NA,/bundles/cards/08008.png
+08009,eoep,neutral,Buried Secrets,treachery,NA,/bundles/cards/08009.png
+08047,eoep,rogue,Scout Ahead,event,0,/bundles/cards/08047.png
+60305,win,rogue,Lockpicks,asset,0,/bundles/cards/60305.png
+60315,win,rogue,Pilfer,event,0,/bundles/cards/60315.png
+60317,win,rogue,Nimble,skill,0,/bundles/cards/60317.png
+03012,ptc,neutral,The Painted World,event,NA,/bundles/cards/03012.png
+03013,ptc,neutral,Stars of Hyades,treachery,NA,/bundles/cards/03013.png
+04269,tdoy,rogue,Coup de Grâce,event,0,/bundles/cards/04269.png
+05029,tcu,rogue,Money Talks,event,0,/bundles/cards/05029.png
+05033,tcu,mystic,Eldritch Inspiration,event,0,/bundles/cards/05033.png
+05234,uad,rogue,Decoy,event,0,/bundles/cards/05234.png
+06116,sfk,mystic,Scroll of Prophecies,asset,0,/bundles/cards/06116.png
+07028,tic,rogue,Faustian Bargain,event,0,/bundles/cards/07028.png
+07039,tic,neutral,Dread Curse,treachery,NA,/bundles/cards/07039.png
+07117,itd,mystic,Armageddon,asset,0,/bundles/cards/07117.png
+07118,itd,mystic,Eye of Chaos,asset,0,/bundles/cards/07118.png
+07271,lod,neutral,Favor of the Moon,asset,1,/bundles/cards/07271.png
+08046,eoep,rogue,Underworld Support,asset,0,/bundles/cards/08046.png
+08059,eoep,mystic,Down the Rabbit Hole,asset,0,/bundles/cards/08059.png
+60410,jac,mystic,Familiar Spirit,asset,0,/bundles/cards/60410.png
+01046,core,rogue,Pickpocketing,asset,0,/bundles/cards/01046.png
+01053,core,rogue,Opportunist,skill,0,/bundles/cards/01053.png
+08048,eoep,rogue,21 or Bust,event,0,/bundles/cards/08048.png
+08049,eoep,rogue,Counterespionage,event,1,/bundles/cards/08049.png
+08053,eoep,rogue,The Red Clock,asset,2,/bundles/cards/08053.png
+08057,eoep,rogue,The Black Fan,asset,3,/bundles/cards/08057.png
+08113,eoep,rogue,Unscrupulous Loan,asset,3,/bundles/cards/08113.png
+60302,win,rogue,"Anything You Can Do, Better",skill,NA,/bundles/cards/60302.png
+60303,win,neutral,Arrogance,skill,NA,/bundles/cards/60303.png
+60306,win,rogue,Mauser C96,asset,0,/bundles/cards/60306.png
+60310,win,rogue,Leather Jacket,asset,0,/bundles/cards/60310.png
+60312,win,rogue,Cheap Shot,event,0,/bundles/cards/60312.png
+60313,win,rogue,Daring Maneuver,event,0,/bundles/cards/60313.png
+60316,win,rogue,Sneak By,event,0,/bundles/cards/60316.png
+60332,win,rogue,Chuck Fergus,asset,5,/bundles/cards/60332.png
+60308,win,rogue,Lucky Cigarette Case,asset,0,/bundles/cards/60308.png
+60309,win,rogue,Lonnie Ritter,asset,0,/bundles/cards/60309.png
+60314,win,rogue,Slip Away,event,0,/bundles/cards/60314.png
+01075,core,survivor,Rabbit's Foot,asset,0,/bundles/cards/01075.png
+03036,ptc,survivor,Lantern,asset,0,/bundles/cards/03036.png
+03042,ptc,neutral,The Thing That Follows,enemy,NA,/bundles/cards/03042.png
+03237,tpm,survivor,Waylay,event,0,/bundles/cards/03237.png
+05037,tcu,survivor,Act of Desperation,event,0,/bundles/cards/05037.png
+60502,ste,survivor,Neither Rain nor Snow,skill,NA,/bundles/cards/60502.png
+60503,ste,neutral,Called by the Mists,treachery,NA,/bundles/cards/60503.png
+60505,ste,survivor,.18 Derringer,asset,0,/bundles/cards/60505.png
+60507,ste,survivor,Old Keyring,asset,0,/bundles/cards/60507.png
+60508,ste,survivor,Granny Orne,asset,0,/bundles/cards/60508.png
+03308,dca,rogue,Charon's Obol,asset,1,/bundles/cards/03308.png
+06026,tde,rogue,Easy Mark,event,1,/bundles/cards/06026.png
+08127,eoep,neutral,Sled Dog,asset,0,/bundles/cards/08127.png
+08133,eoep,neutral,Stupor,treachery,NA,NA
+02225,uau,guardian,"""If it bleeds...""",event,0,/bundles/cards/02225.png
+02260,wda,guardian,Leadership,skill,0,/bundles/cards/02260.png
+03007,ptc,neutral,The Home Front,skill,NA,/bundles/cards/03007.png
+03008,ptc,neutral,Shell Shock,treachery,NA,/bundles/cards/03008.png
+03009,ptc,neutral,Sophie,asset,NA,/bundles/cards/03009.png
+04018,tfa,guardian,Venturer,asset,0,/bundles/cards/04018.png
+04149,tbb,guardian,Second Wind,event,0,/bundles/cards/04149.png
+05115,tsn,guardian,.45 Thompson,asset,0,/bundles/cards/05115.png
+05313,bbt,guardian,Hallowed Mirror,asset,0,/bundles/cards/05313.png
+06197,dsm,seeker,Practice Makes Perfect,event,0,/bundles/cards/06197.png
+60118,nat,guardian,Stand Together,event,0,/bundles/cards/60118.png
+02010,dwl,neutral,Jenny's Twin .45s,asset,NA,/bundles/cards/02010.png
+02011,dwl,neutral,Searching for Izzie,treachery,NA,/bundles/cards/02011.png
+02016,dwl,guardian,Blackjack,asset,0,/bundles/cards/02016.png
+02018,dwl,guardian,Teamwork,event,0,/bundles/cards/02018.png
+02024,dwl,rogue,Liquid Courage,asset,0,/bundles/cards/02024.png
+02025,dwl,rogue,Think on Your Feet,event,0,/bundles/cards/02025.png
+02026,dwl,rogue,Double or Nothing,skill,0,/bundles/cards/02026.png
+08112,eoep,rogue,"""Hit me!""",event,0,/bundles/cards/08112.png
+03264,bsr,guardian,Stick to the Plan,asset,3,/bundles/cards/03264.png
+04151,tbb,guardian,Well Prepared,asset,2,/bundles/cards/04151.png
+06110,sfk,guardian,First Watch,event,0,/bundles/cards/06110.png
+08028,eoep,guardian,On the Hunt,event,3,/bundles/cards/08028.png
+08083,eoep,guardian,Medical Student,asset,0,/bundles/cards/08083.png
+08093,eoep,guardian,Cyclopean Hammer,asset,5,/bundles/cards/08093.png
+08094,eoep,guardian,Sledgehammer,asset,0,/bundles/cards/08094.png
+60114,nat,guardian,"""Get over here!""",event,0,/bundles/cards/60114.png
+05021,tcu,guardian,Delay the Inevitable,event,0,/bundles/cards/05021.png
+07006,tic,neutral,Guardian Angel,asset,NA,/bundles/cards/07006.png
+07007,tic,neutral,Crisis of Faith,treachery,NA,/bundles/cards/07007.png
+07018,tic,guardian,Blessed Blade,asset,0,/bundles/cards/07018.png
+07019,tic,guardian,Rite of Sanctification,asset,0,/bundles/cards/07019.png
+08126,eoep,neutral,Heavy Furs,asset,0,/bundles/cards/08126.png
+01066,core,mystic,Blinding Light,event,0,/bundles/cards/01066.png
+02111,tmm,mystic,Delve Too Deep,event,0,/bundles/cards/02111.png
+04106,tof,seeker,Shrewd Analysis,asset,0,/bundles/cards/04106.png
+04109,tof,mystic,Arcane Research,asset,0,/bundles/cards/04109.png
+04152,tbb,seeker,Truth from Fiction,event,0,/bundles/cards/04152.png
+06164,tsh,mystic,Ethereal Form,event,0,/bundles/cards/06164.png
+60411,jac,mystic,Crystal Pendulum,asset,0,/bundles/cards/60411.png
+01539,rcore,seeker,Deduction,skill,0,/bundles/cards/01539.png
+03025,ptc,seeker,Archaic Glyphs,asset,0,/bundles/cards/03025.png
+04232,tcoa,rogue,Slip Away,event,0,/bundles/cards/04232.png
+06114,sfk,rogue,Followed,event,0,/bundles/cards/06114.png
+01073,core,survivor,Scavenging,asset,0,/bundles/cards/01073.png
+02109,tmm,rogue,Contraband,event,0,/bundles/cards/02109.png
+05030,tcu,rogue,Cunning,skill,0,/bundles/cards/05030.png
+05117,tsn,rogue,Tennessee Sour Mash,asset,0,/bundles/cards/05117.png
+04199,hote,mystic,Premonition,event,0,/bundles/cards/04199.png
+07116,itd,rogue,False Covenant,asset,2,/bundles/cards/07116.png
+01072,core,survivor,Leather Coat,asset,0,/bundles/cards/01072.png
+02039,dwl,neutral,Chronophobia,treachery,NA,/bundles/cards/02039.png
+04036,tfa,survivor,Last Chance,skill,0,/bundles/cards/04036.png
+04160,tbb,survivor,Cornered,asset,2,/bundles/cards/04160.png
+04312,sha,survivor,Impromptu Barrier,event,0,/bundles/cards/04312.png
+06034,tde,survivor,Fortuitous Discovery,event,0,/bundles/cards/06034.png
+06328,woc,mystic,Mind's Eye,asset,2,/bundles/cards/06328.png
+06332,woc,survivor,Scavenging,asset,2,/bundles/cards/06332.png
+08073,eoep,survivor,Bandages,asset,0,/bundles/cards/08073.png
+08104,eoep,seeker,Professor William Webb,asset,0,/bundles/cards/08104.png
+07035,tic,survivor,Predestined,skill,0,/bundles/cards/07035.png
+60407,jac,mystic,Azure Flame,asset,0,/bundles/cards/60407.png
+01006,core,neutral,Roland's .38 Special,asset,NA,/bundles/cards/01006.png
+01007,core,neutral,Cover Up,treachery,NA,/bundles/cards/01007.png
+01030,core,seeker,Magnifying Glass,asset,0,/bundles/cards/01030.png
+02023,dwl,seeker,Seeking Answers,event,0,/bundles/cards/02023.png
+02186,bota,seeker,Preposterous Sketches,event,0,/bundles/cards/02186.png
+04306,sha,seeker,Vantage Point,event,0,/bundles/cards/04306.png
+05116,tsn,seeker,Scroll of Secrets,asset,0,/bundles/cards/05116.png
+07023,tic,seeker,Deep Knowledge,event,0,/bundles/cards/07023.png
+07112,itd,seeker,Stirring Up Trouble,event,1,/bundles/cards/07112.png
+08065,eoep,mystic,Occult Theory,skill,1,/bundles/cards/08065.png
+60213,har,seeker,Whitton Greene,asset,0,/bundles/cards/60213.png
+03106,eotp,guardian,Heroic Rescue,event,0,/bundles/cards/03106.png
+04103,tof,guardian,Scene of the Crime,event,0,/bundles/cards/04103.png
+08002,eoep,neutral,Mechanic's Wrench,asset,NA,/bundles/cards/08002.png
+08003,eoep,neutral,Mob Goons,enemy,NA,/bundles/cards/08003.png
+07025,tic,rogue,.25 Automatic,asset,0,/bundles/cards/07025.png
+08097,eoep,seeker,Pocket Telescope,asset,0,/bundles/cards/08097.png
+60204,har,neutral,Obsessive,treachery,NA,/bundles/cards/60204.png
+03150,tuo,seeker,Forewarned,event,1,/bundles/cards/03150.png
+03232,tpm,seeker,Shortcut,event,2,/bundles/cards/03232.png
+03306,dca,seeker,Eidetic Memory,event,3,/bundles/cards/03306.png
+03307,dca,seeker,No Stone Unturned,event,5,/bundles/cards/03307.png
+04008,tfa,neutral,Jake Williams,asset,NA,/bundles/cards/04008.png
+04009,tfa,neutral,Call of the Unknown,treachery,NA,/bundles/cards/04009.png
+04021,tfa,seeker,Dr. Elli Horowitz,asset,0,/bundles/cards/04021.png
+04023,tfa,seeker,Tooth of Eztli,asset,0,/bundles/cards/04023.png
+60211,har,seeker,Higher Education,asset,0,/bundles/cards/60211.png
+60217,har,seeker,Occult Invocation,event,0,/bundles/cards/60217.png
+60223,har,seeker,Whitton Greene,asset,2,/bundles/cards/60223.png
+60225,har,seeker,"""I've got a plan!""",event,2,/bundles/cards/60225.png
+60232,har,seeker,Miskatonic Archaeology Funding,asset,4,/bundles/cards/60232.png
+60233,har,seeker,The Necronomicon,asset,5,NA
+01096,core,neutral,Amnesia,treachery,NA,/bundles/cards/01096.png
+01098,core,neutral,Haunted,treachery,NA,/bundles/cards/01098.png
+02149,tece,seeker,Art Student,asset,0,/bundles/cards/02149.png
+03059,ptc,neutral,The Man in the Pallid Mask,enemy,NA,/bundles/cards/03059.png
+03142,eotp,neutral,Clasp of Black Onyx,asset,NA,/bundles/cards/03142.png
+03227,apot,neutral,Lost Soul,treachery,NA,/bundles/cards/03227.png
+03267,bsr,rogue,Narrow Escape,event,0,/bundles/cards/03267.png
+05027,tcu,seeker,Death • XIII,asset,1,/bundles/cards/05027.png
+07010,tic,neutral,In the Shadows,event,NA,/bundles/cards/07010.png
+07011,tic,neutral,Shadow Agents,enemy,NA,/bundles/cards/07011.png
+07305,itm,rogue,.25 Automatic,asset,2,/bundles/cards/07305.png
+08035,eoep,seeker,Hiking Boots,asset,1,/bundles/cards/08035.png
+05038,tcu,survivor,Able Bodied,skill,0,/bundles/cards/05038.png
+05119,tsn,survivor,Grisly Totem,asset,0,/bundles/cards/05119.png
+60515,ste,survivor,Grit Your Teeth,event,0,/bundles/cards/60515.png
+01078,core,survivor,Cunning Distraction,event,0,/bundles/cards/01078.png
+03194,apot,rogue,Cheap Shot,event,0,/bundles/cards/03194.png
+05016,tcu,neutral,"""I'm done runnin'!""",event,NA,/bundles/cards/05016.png
+05017,tcu,neutral,Hoods,enemy,NA,/bundles/cards/05017.png
+05160,wos,survivor,Belly of the Beast,event,0,/bundles/cards/05160.png
+08616,eoec,neutral,Dynamite,asset,NA,NA
+03309,dca,rogue,Lupara,asset,3,/bundles/cards/03309.png
+05278,icc,rogue,"Another Day, Another Dollar",asset,3,/bundles/cards/05278.png
+06327,woc,rogue,Sawed-Off Shotgun,asset,5,/bundles/cards/06327.png
+01694,rcore,neutral,Charisma,asset,3,/bundles/cards/01694.png
+04274,tdoy,neutral,Thermos,asset,0,/bundles/cards/04274.png
+05156,wos,rogue,Swift Reflexes,event,0,/bundles/cards/05156.png
+06059,tde,neutral,Randolph Carter,asset,NA,/bundles/cards/06059.png
+07303,itm,seeker,Ancestral Knowledge,asset,3,/bundles/cards/07303.png
+07304,itm,seeker,Ariadne's Twine,asset,3,/bundles/cards/07304.png
+08100,eoep,seeker,Eon Chart,asset,4,/bundles/cards/08100.png
+52003,rtptc,seeker,Logical Reasoning,event,4,/bundles/cards/52003.png
+05007,tcu,neutral,Hypnotic Therapy,asset,NA,/bundles/cards/05007.png
+05008,tcu,neutral,Rational Thought,treachery,NA,/bundles/cards/05008.png
+08019,eoep,guardian,Geared Up,asset,0,/bundles/cards/08019.png
+08105,eoep,seeker,Ice Pick,asset,1,/bundles/cards/08105.png
+05009,tcu,neutral,Detective's Colt 1911s,asset,NA,/bundles/cards/05009.png
+05010,tcu,neutral,Unsolved Case,event,NA,/bundles/cards/05010.png
+05025,tcu,seeker,Connect the Dots,event,0,/bundles/cards/05025.png
+60119,nat,guardian,Vicious Blow,skill,0,/bundles/cards/60119.png
+60219,har,seeker,Deduction,skill,0,/bundles/cards/60219.png
+06006,tde,neutral,Becky,asset,NA,/bundles/cards/06006.png
+06007,tde,neutral,Rookie Mistake,treachery,NA,/bundles/cards/06007.png
+06036,tde,neutral,Kleptomania,asset,NA,/bundles/cards/06036.png
+06155,tsh,guardian,Tetsuo Mori,asset,0,/bundles/cards/06155.png
+06157,tsh,guardian,Self-Sacrifice,skill,0,/bundles/cards/06157.png
+06021,tde,seeker,Segment of Onyx,asset,1,/bundles/cards/06021.png
+02190,bota,mystic,Defiance,skill,0,/bundles/cards/02190.png
+03038,ptc,survivor,Hiding Spot,event,0,/bundles/cards/03038.png
+04040,tfa,neutral,Doomed,treachery,NA,/bundles/cards/04040.png
+05034,tcu,mystic,Prophesy,skill,0,/bundles/cards/05034.png
+60415,jac,mystic,Parallel Fates,event,0,/bundles/cards/60415.png
+02037,dwl,neutral,Indebted,treachery,NA,/bundles/cards/02037.png
+01028,core,guardian,Beat Cop,asset,2,/bundles/cards/01028.png
+01074,core,survivor,Baseball Bat,asset,0,/bundles/cards/01074.png
+03016,ptc,neutral,Bury Them Deep,event,NA,/bundles/cards/03016.png
+03017,ptc,neutral,Graveyard Ghouls,enemy,NA,/bundles/cards/03017.png
+60126,nat,guardian,Overpower,skill,2,/bundles/cards/60126.png
+02017,dwl,guardian,Taunt,event,0,/bundles/cards/02017.png
+02105,tmm,guardian,Emergency Aid,event,0,/bundles/cards/02105.png
+03021,ptc,guardian,True Grit,asset,0,/bundles/cards/03021.png
+01063,core,mystic,Arcane Initiate,asset,0,/bundles/cards/01063.png
+05013,tcu,neutral,Twilight Blade,asset,NA,/bundles/cards/05013.png
+05014,tcu,neutral,Dark Insight,event,NA,/bundles/cards/05014.png
+05015,tcu,neutral,Terrible Secret,treachery,NA,/bundles/cards/05015.png
+60405,jac,mystic,Ritual Candles,asset,0,/bundles/cards/60405.png
+60409,jac,mystic,Ineffable Truth,asset,0,/bundles/cards/60409.png
+60414,jac,mystic,Hypnotic Gaze,event,0,/bundles/cards/60414.png
+60417,jac,mystic,Dark Prophecy,event,0,/bundles/cards/60417.png
+60418,jac,mystic,Defiance,skill,0,/bundles/cards/60418.png
+02151,tece,rogue,"""I'm outta here!""",event,0,/bundles/cards/02151.png
+05031,tcu,rogue,The Moon • XVIII,asset,1,/bundles/cards/05031.png
+90009,aon,neutral,On the Lam,event,NA,/bundles/cards/90009.png
+90010,aon,neutral,Hospital Debts,treachery,NA,/bundles/cards/90010.png
+02187,bota,seeker,Higher Education,asset,3,/bundles/cards/02187.png
+03149,tuo,seeker,"Charles Ross, Esq.",asset,0,/bundles/cards/03149.png
+03193,apot,seeker,Archaic Glyphs,asset,3,/bundles/cards/03193.png
+04153,tbb,seeker,True Understanding,skill,0,/bundles/cards/04153.png
+05194,fgg,seeker,Grisly Totem,asset,3,/bundles/cards/05194.png
+06236,pnr,seeker,Dream Diary,asset,3,/bundles/cards/06236.png
+06238,pnr,seeker,Dream Diary,asset,3,/bundles/cards/06238.png
+08067,eoep,mystic,Astronomical Atlas,asset,3,/bundles/cards/08067.png
+54004,rttcu,seeker,Occult Lexicon,asset,3,/bundles/cards/54004.png
+60228,har,seeker,Perception,skill,2,/bundles/cards/60228.png
+05316,bbt,seeker,Occult Lexicon,asset,0,/bundles/cards/05316.png
+02008,dwl,neutral,Search for the Truth,event,NA,/bundles/cards/02008.png
+02009,dwl,neutral,Rex's Curse,treachery,NA,/bundles/cards/02009.png
+60215,har,seeker,Cryptic Writings,event,0,/bundles/cards/60215.png
+02036,dwl,neutral,Kukri,asset,0,/bundles/cards/02036.png
+02267,wda,mystic,Moonlight Ritual,event,0,/bundles/cards/02267.png
+02272,wda,neutral,Fine Clothes,asset,0,/bundles/cards/02272.png
+03116,eotp,neutral,Say Your Prayers,skill,0,/bundles/cards/03116.png
+03118,eotp,neutral,Reckless Assault,skill,0,/bundles/cards/03118.png
+03119,eotp,neutral,Run For Your Life,skill,0,/bundles/cards/03119.png
+03235,tpm,mystic,Torrent of Power,skill,0,/bundles/cards/03235.png
+04024,tfa,seeker,Unearth the Ancients,event,0,/bundles/cards/04024.png
+04105,tof,seeker,Persuasion,event,0,/bundles/cards/04105.png
+05275,icc,seeker,Ghastly Revelation,event,0,/bundles/cards/05275.png
+06159,tsh,seeker,Dream-Enhancing Serum,asset,0,/bundles/cards/06159.png
+07022,tic,seeker,Cryptic Grimoire,asset,0,/bundles/cards/07022.png
+07030,tic,mystic,Tides of Fate,event,0,/bundles/cards/07030.png
+07154,def,seeker,The Truth Beckons,event,0,/bundles/cards/07154.png
+08034,eoep,seeker,Written in the Stars,event,0,/bundles/cards/08034.png
+60210,har,seeker,Forbidden Tome,asset,0,/bundles/cards/60210.png
+60216,har,seeker,Extensive Research,event,0,/bundles/cards/60216.png
+60419,jac,mystic,Prescient,skill,0,/bundles/cards/60419.png
+01061,core,mystic,Scrying,asset,0,/bundles/cards/01061.png
+06196,dsm,guardian,Safeguard,asset,2,/bundles/cards/06196.png
+08011a,eoep,neutral,Discipline,asset,NA,/bundles/cards/08011a.png
+08116,eoep,mystic,Talisman of Protection,asset,0,/bundles/cards/08116.png
+08074,eoep,survivor,Jury-Rig,event,0,/bundles/cards/08074.png
+01071,core,mystic,Grotesque Statue,asset,4,/bundles/cards/01071.png
+03270,bsr,mystic,Ward of Protection,event,2,/bundles/cards/03270.png
+05189,fgg,mystic,Scroll of Secrets,asset,3,/bundles/cards/05189.png
+08063,eoep,mystic,Winds of Power,event,1,/bundles/cards/08063.png
+52008,rtptc,mystic,Storm of Spirits,event,3,/bundles/cards/52008.png
+05186,fgg,guardian,.45 Thompson,asset,3,/bundles/cards/05186.png
+05192,fgg,guardian,Enchanted Blade,asset,3,/bundles/cards/05192.png
+07220,lif,guardian,Holy Rosary,asset,2,/bundles/cards/07220.png
+51001,rtdwl,guardian,Bandolier,asset,2,/bundles/cards/51001.png
+60128,nat,guardian,Grete Wagner,asset,3,/bundles/cards/60128.png
+83057,guardians,neutral,Khopesh of the Abyss,asset,NA,/bundles/cards/83057.png
+90030,btb,neutral,Roland's .38 Special,asset,NA,/bundles/cards/90030.png
+01535,rcore,seeker,Medical Texts,asset,0,/bundles/cards/01535.png
+08005,eoep,neutral,Livre d'Eibon,asset,NA,/bundles/cards/08005.png
+08006,eoep,neutral,The Harbinger,treachery,NA,/bundles/cards/08006.png
+08032,eoep,seeker,Jeremiah Kirby,asset,0,/bundles/cards/08032.png
+08021,eoep,guardian,"""Get behind me!""",event,0,/bundles/cards/08021.png
+02148,tece,guardian,Stand Together,event,3,/bundles/cards/02148.png
+04193,hote,guardian,Custom Ammunition,event,3,/bundles/cards/04193.png
+54002,rttcu,guardian,Hallowed Mirror,asset,3,/bundles/cards/54002.png
+03034,ptc,mystic,Astral Travel,event,0,/bundles/cards/03034.png
+04032,tfa,mystic,Dark Prophecy,event,0,/bundles/cards/04032.png
+04197,hote,mystic,Olive McBride,asset,0,/bundles/cards/04197.png
+05322,bbt,mystic,Sixth Sense,asset,4,/bundles/cards/05322.png
+54008,rttcu,mystic,Sign Magick,asset,3,/bundles/cards/54008.png
+60402,jac,mystic,Arbiter of Fates,asset,NA,/bundles/cards/60402.png
+60403,jac,neutral,Dark Future,treachery,NA,/bundles/cards/60403.png
+60416,jac,mystic,Voice of Ra,event,0,/bundles/cards/60416.png
+02029,dwl,mystic,Ritual Candles,asset,0,/bundles/cards/02029.png
+01101,core,neutral,Mob Enforcer,enemy,NA,/bundles/cards/01101.png
+01574,rcore,survivor,Baseball Bat,asset,0,/bundles/cards/01574.png
+01578,rcore,survivor,Cunning Distraction,event,0,/bundles/cards/01578.png
+01580,rcore,survivor,Lucky!,event,0,/bundles/cards/01580.png
+01588,rcore,neutral,Emergency Cache,event,0,/bundles/cards/01588.png
+01593,rcore,neutral,Unexpected Courage,skill,0,/bundles/cards/01593.png
+60509,ste,survivor,Mysterious Raven,asset,0,/bundles/cards/60509.png
+60510,ste,survivor,Rabbit's Foot,asset,0,/bundles/cards/60510.png
+60512,ste,survivor,Will to Survive,event,0,/bundles/cards/60512.png
+60516,ste,survivor,Live and Learn,event,0,/bundles/cards/60516.png
+60517,ste,survivor,"""Look what I found!""",event,0,/bundles/cards/60517.png
+60519,ste,survivor,Take Heart,skill,0,/bundles/cards/60519.png
+01012,core,neutral,Heirloom of Hyperborea,asset,NA,/bundles/cards/01012.png
+01013,core,neutral,Dark Memory,event,NA,/bundles/cards/01013.png
+01076,core,survivor,Stray Cat,asset,0,/bundles/cards/01076.png
+01100,core,neutral,Hypochondria,treachery,NA,/bundles/cards/01100.png
+04022,tfa,seeker,Ancient Stone,asset,1,/bundles/cards/04022.png
+07021,tic,seeker,Cryptographic Cipher,asset,0,/bundles/cards/07021.png
+07111,itd,seeker,Eldritch Sophist,asset,0,/bundles/cards/07111.png
+08098,eoep,seeker,Eon Chart,asset,1,/bundles/cards/08098.png
+60202,har,seeker,Vault of Knowledge,asset,NA,/bundles/cards/60202.png
+60203,har,neutral,Thrice-Damned Curiosity,treachery,NA,/bundles/cards/60203.png
+02020,dwl,seeker,Laboratory Assistant,asset,0,/bundles/cards/02020.png
+02021,dwl,seeker,Strange Solution,asset,0,/bundles/cards/02021.png
+03031,ptc,rogue,Lockpicks,asset,1,/bundles/cards/03031.png
+60318,win,rogue,Daredevil,skill,0,/bundles/cards/60318.png
+01014,core,neutral,Wendy's Amulet,asset,NA,/bundles/cards/01014.png
+01015,core,neutral,Abandoned and Alone,treachery,NA,/bundles/cards/01015.png
+04148,tof,neutral,Expedition Journal,asset,NA,/bundles/cards/04148.png
+04270,tdoy,rogue,The Skeleton Key,asset,2,/bundles/cards/04270.png
+05236,uad,survivor,Guiding Spirit,asset,1,/bundles/cards/05236.png
+08115,eoep,rogue,Precious Memento,asset,4,/bundles/cards/08115.png
+53009,rttfa,survivor,Alter Fate,event,1,/bundles/cards/53009.png
+04025,tfa,rogue,Treasure Hunter,asset,1,/bundles/cards/04025.png
+04051,tfa,neutral,Alejandro Vela,asset,NA,/bundles/cards/04051.png
+60522,ste,survivor,.18 Derringer,asset,2,/bundles/cards/60522.png
+04061,tfa,neutral,Relic of Ages,asset,NA,/bundles/cards/04061.png
+02154,tece,mystic,Shrivelling,asset,3,/bundles/cards/02154.png
+60428,jac,mystic,Arcane Studies,asset,4,/bundles/cards/60428.png
+04192,hote,guardian,Intrepid,skill,0,/bundles/cards/04192.png
+60109,nat,guardian,Relentless,asset,0,/bundles/cards/60109.png
+07036,tic,survivor,Beloved,skill,0,/bundles/cards/07036.png
+60304,win,neutral,Reckless,skill,NA,/bundles/cards/60304.png
+05109,tsn,guardian,Something Worth Fighting For,asset,0,/bundles/cards/05109.png
+03037,ptc,survivor,Gravedigger's Shovel,asset,0,/bundles/cards/03037.png
+02014,dwl,neutral,Duke,asset,NA,/bundles/cards/02014.png
+02015,dwl,neutral,Wracked by Nightmares,treachery,NA,/bundles/cards/02015.png
+04010,tfa,neutral,Smuggled Goods,event,NA,/bundles/cards/04010.png
+04011,tfa,neutral,Finn's Trusty .38,asset,NA,/bundles/cards/04011.png
+04012,tfa,neutral,Caught Red-Handed,treachery,NA,/bundles/cards/04012.png
+04029,tfa,mystic,Mists of R'lyeh,asset,0,/bundles/cards/04029.png
+08013a,eoep,neutral,Discipline,asset,NA,/bundles/cards/08013a.png
+08014a,eoep,neutral,Discipline,asset,NA,/bundles/cards/08014a.png
+08086,eoep,guardian,Michael Leigh,asset,5,/bundles/cards/08086.png
+08132,eoep,neutral,Panic,treachery,NA,/bundles/cards/08132.png
+50001,rtnotz,guardian,Physical Training,asset,2,/bundles/cards/50001.png
+02232,uau,mystic,Alyssa Graham,asset,0,/bundles/cards/02232.png
+03018,ptc,neutral,Improvisation,event,NA,/bundles/cards/03018.png
+03019,ptc,neutral,Crisis of Identity,treachery,NA,/bundles/cards/03019.png
+06020,tde,guardian,Solemn Vow,asset,0,/bundles/cards/06020.png
+06160,tsh,rogue,"""Let God sort them out...""",event,0,/bundles/cards/06160.png
+07158,def,mystic,Blood Pact,asset,0,/bundles/cards/07158.png
+03158,tuo,neutral,Calling in Favors,event,0,/bundles/cards/03158.png
+04006,tfa,neutral,Mitch Brown,asset,NA,/bundles/cards/04006.png
+04007,tfa,neutral,Bought in Blood,treachery,NA,/bundles/cards/04007.png
+04019,tfa,guardian,Trusted,event,0,/bundles/cards/04019.png
+60104,nat,neutral,Self-Destructive,treachery,NA,/bundles/cards/60104.png
+02193,bota,survivor,Scrapper,asset,3,/bundles/cards/02193.png
+03313,dca,survivor,Newspaper,asset,2,/bundles/cards/03313.png
+07270,lod,survivor,Dig Deep,asset,4,/bundles/cards/07270.png
+60528,ste,survivor,Lucky!,event,3,/bundles/cards/60528.png
+01043,core,seeker,Cryptic Research,event,4,/bundles/cards/01043.png
+02263,wda,seeker,Strange Solution,asset,4,/bundles/cards/02263.png
+60226,har,seeker,Mind over Matter,event,2,/bundles/cards/60226.png
+04026,tfa,rogue,Decorated Skull,asset,0,/bundles/cards/04026.png
+04030,tfa,mystic,The Chthonian Stone,asset,0,/bundles/cards/04030.png
+01102,core,neutral,Silver Twilight Acolyte,enemy,NA,/bundles/cards/01102.png
+01530,rcore,seeker,Magnifying Glass,asset,0,/bundles/cards/01530.png
+01573,rcore,survivor,Scavenging,asset,0,/bundles/cards/01573.png
+01575,rcore,survivor,Rabbit's Foot,asset,0,/bundles/cards/01575.png
+01579,rcore,survivor,"""Look what I found!""",event,0,/bundles/cards/01579.png
+01590,rcore,neutral,Perception,skill,0,/bundles/cards/01590.png
+01591,rcore,neutral,Overpower,skill,0,/bundles/cards/01591.png
+01531,rcore,seeker,Old Book of Lore,asset,0,/bundles/cards/01531.png
+01533,rcore,seeker,Dr. Milan Christopher,asset,0,/bundles/cards/01533.png
+01536,rcore,seeker,Mind over Matter,event,0,/bundles/cards/01536.png
+01565,rcore,mystic,Ward of Protection,event,0,/bundles/cards/01565.png
+01589,rcore,neutral,Guts,skill,0,/bundles/cards/01589.png
+01516,rcore,guardian,.45 Automatic,asset,0,/bundles/cards/01516.png
+01518,rcore,guardian,Beat Cop,asset,0,/bundles/cards/01518.png
+01520,rcore,guardian,Machete,asset,0,/bundles/cards/01520.png
+01522,rcore,guardian,Evidence!,event,0,/bundles/cards/01522.png
+01523,rcore,guardian,Dodge,event,0,/bundles/cards/01523.png
+01525,rcore,guardian,Vicious Blow,skill,0,/bundles/cards/01525.png
+01548,rcore,rogue,Leo De Luca,asset,0,/bundles/cards/01548.png
+01550,rcore,rogue,Elusive,event,0,/bundles/cards/01550.png
+02302,litas,seeker,Dr. William T. Maleson,asset,0,/bundles/cards/02302.png
+02194,bota,neutral,Emergency Cache,event,2,/bundles/cards/02194.png
+06027,tde,mystic,Stargazing,event,1,/bundles/cards/06027.png
+06323,woc,guardian,Spiritual Resolve,asset,5,/bundles/cards/06323.png
+07262,lod,guardian,Nephthys,asset,4,/bundles/cards/07262.png
+07302,itm,guardian,Holy Spear,asset,5,/bundles/cards/07302.png
+02300,litas,guardian,Monster Slayer,event,5,/bundles/cards/02300.png
+07221,lif,guardian,Shield of Faith,asset,2,/bundles/cards/07221.png
+06205,dsm,neutral,Lucid Dreaming,event,2,/bundles/cards/06205.png
+08128,eoep,neutral,Rod of Animalism,asset,1,/bundles/cards/08128.png
+04309,sha,rogue,All In,skill,5,/bundles/cards/04309.png
+06115,sfk,rogue,Momentum,skill,1,/bundles/cards/06115.png
+08614,eoec,neutral,Green Soapstone,asset,NA,NA
+08617,eoec,neutral,Miasmic Crystal,asset,NA,NA
+08618,eoec,neutral,Mineral Specimen,asset,NA,NA
+08619,eoec,neutral,Small Radio,asset,NA,NA
+08620,eoec,neutral,Spare Parts,asset,NA,NA
+08735,eoec,neutral,Kensler's Log,asset,NA,NA
+60323,win,rogue,Cheap Shot,event,2,/bundles/cards/60323.png
+60325,win,rogue,Manual Dexterity,skill,2,/bundles/cards/60325.png
+60326,win,rogue,Lucky Cigarette Case,asset,3,/bundles/cards/60326.png
+60328,win,rogue,Pilfer,event,3,/bundles/cards/60328.png
+03273,bsr,survivor,True Survivor,event,3,/bundles/cards/03273.png
+08615,eoec,neutral,Wooden Sledge,asset,NA,NA
+50010,rtnotz,survivor,Rabbit's Foot,asset,3,/bundles/cards/50010.png
+54009,rttcu,survivor,Nine of Rods,asset,3,/bundles/cards/54009.png
+60524,ste,survivor,"""Look what I found!""",event,2,/bundles/cards/60524.png
+60527,ste,survivor,Granny Orne,asset,3,/bundles/cards/60527.png
+60530,ste,survivor,Quick Learner,asset,4,/bundles/cards/60530.png
+02012,dwl,neutral,Jim's Trumpet,asset,NA,/bundles/cards/02012.png
+02013,dwl,neutral,Final Rhapsody,treachery,NA,/bundles/cards/02013.png
+05319,bbt,rogue,"""You owe me one!""",event,0,/bundles/cards/05319.png
+01084,core,survivor,Lucky!,event,2,/bundles/cards/01084.png
+05035,tcu,mystic,Four of Cups,asset,1,/bundles/cards/05035.png
+53010,rttfa,survivor,On Your Own,asset,3,/bundles/cards/53010.png
+02305,litas,rogue,The Gold Pocket Watch,asset,4,/bundles/cards/02305.png
+04196,hote,rogue,Lola Santiago,asset,3,/bundles/cards/04196.png
+04204,hote,neutral,Ornate Bow,asset,3,/bundles/cards/04204.png
+05041,tcu,neutral,The 13th Vision,treachery,NA,/bundles/cards/05041.png
+06035,tde,neutral,Self-Centered,treachery,NA,/bundles/cards/06035.png
+06239,pnr,rogue,Haste,asset,2,/bundles/cards/06239.png
+52006,rtptc,rogue,Suggestion,asset,1,/bundles/cards/52006.png
+60404,jac,neutral,Nihilism,treachery,NA,/bundles/cards/60404.png
+03117,eotp,neutral,Desperate Search,skill,0,/bundles/cards/03117.png
+07012,tic,neutral,Showmanship,asset,NA,/bundles/cards/07012.png
+07013,tic,neutral,Occult Scraps,asset,NA,/bundles/cards/07013.png
+08101,eoep,seeker,Divination,asset,1,/bundles/cards/08101.png
+08117,eoep,mystic,Earthly Serenity,asset,1,/bundles/cards/08117.png
+60426,jac,mystic,Clairvoyance,asset,3,/bundles/cards/60426.png
+06163,tsh,mystic,Healing Words,asset,0,/bundles/cards/06163.png
+05235,uad,mystic,De Vermis Mysteriis,asset,2,/bundles/cards/05235.png
+05279,icc,mystic,Dayana Esperence,asset,3,/bundles/cards/05279.png
+06202,dsm,mystic,Word of Command,event,2,/bundles/cards/06202.png
+60422,jac,mystic,Robes of Endless Night,asset,2,/bundles/cards/60422.png
+60430,jac,mystic,Azure Flame,asset,5,/bundles/cards/60430.png
+01695,rcore,neutral,Relic Hunter,asset,3,/bundles/cards/01695.png
+04308,sha,rogue,Borrowed Time,asset,3,/bundles/cards/04308.png
+02185,bota,guardian,Keen Eye,asset,3,/bundles/cards/02185.png
+06234,pnr,guardian,Heroic Rescue,event,2,/bundles/cards/06234.png
+08075,eoep,survivor,Bangle of Jinxes,asset,1,/bundles/cards/08075.png
+54001,rttcu,guardian,The Star • XVII,asset,3,/bundles/cards/54001.png
+03010,ptc,neutral,Analytical Mind,asset,NA,/bundles/cards/03010.png
+03011,ptc,neutral,The King in Yellow,asset,NA,/bundles/cards/03011.png
+02231,uau,rogue,Opportunist,skill,2,/bundles/cards/02231.png
+03195,apot,rogue,Pickpocketing,asset,2,/bundles/cards/03195.png
+04156,tbb,rogue,High Roller,asset,2,/bundles/cards/04156.png
+60321,win,rogue,Mauser C96,asset,2,/bundles/cards/60321.png
+60322,win,rogue,Daring Maneuver,event,2,/bundles/cards/60322.png
+06237,pnr,seeker,Dream Diary,asset,3,/bundles/cards/06237.png
+06325,woc,seeker,The Eye of Truth,skill,5,/bundles/cards/06325.png
+07222,lif,seeker,Fey,skill,1,/bundles/cards/07222.png
+04110,tof,mystic,Counterspell,event,2,/bundles/cards/04110.png
+08066,eoep,mystic,Parallel Fates,event,2,/bundles/cards/08066.png
+03228,tpm,guardian,Inspiring Presence,skill,0,/bundles/cards/03228.png
+07229,lif,survivor,Spirit of Humanity,asset,2,/bundles/cards/07229.png
+02106,tmm,guardian,Brother Xavier,asset,1,/bundles/cards/02106.png
+03190,apot,guardian,.45 Automatic,asset,2,/bundles/cards/03190.png
+06195,dsm,guardian,.35 Winchester,asset,0,/bundles/cards/06195.png
+07152,def,guardian,Keen Eye,asset,0,/bundles/cards/07152.png
+08096,eoep,guardian,Sledgehammer,asset,4,/bundles/cards/08096.png
+52001,rtptc,guardian,.32 Colt,asset,2,/bundles/cards/52001.png
+52002,rtptc,guardian,"""Eat lead!""",event,0,/bundles/cards/52002.png
+08058,eoep,rogue,The Red Clock,asset,5,/bundles/cards/08058.png
+08111,eoep,rogue,Blur,asset,4,/bundles/cards/08111.png
+08022,eoep,guardian,Gang Up,event,1,/bundles/cards/08022.png
+08077,eoep,survivor,Strength in Numbers,skill,1,/bundles/cards/08077.png
+08129,eoep,neutral,Call for Backup,event,2,/bundles/cards/08129.png
+02110,tmm,rogue,Adaptable,asset,1,/bundles/cards/02110.png
+02153,tece,mystic,Hypnotic Gaze,event,0,/bundles/cards/02153.png
+02265,wda,rogue,"Joey ""The Rat"" Vigil",asset,0,/bundles/cards/02265.png
+01687,rcore,rogue,Lockpicks,asset,1,/bundles/cards/01687.png
+08023,eoep,guardian,Sweeping Kick,event,1,/bundles/cards/08023.png
+08123,eoep,seeker,Crafty,asset,3,/bundles/cards/08123.png
+51002,rtdwl,guardian,Blackjack,asset,2,/bundles/cards/51002.png
+53005,rttfa,rogue,Decorated Skull,asset,3,/bundles/cards/53005.png
+02178,tece,neutral,Across Space and Time,treachery,NA,/bundles/cards/02178.png
+60420,jac,mystic,Eldritch Inspiration,event,1,/bundles/cards/60420.png
+05324,bbt,survivor,Eucatastrophe,event,3,/bundles/cards/05324.png
+52013,rtptc,neutral,Unspeakable Oath,treachery,NA,/bundles/cards/52013.png
+01537,rcore,seeker,Working a Hunch,event,0,/bundles/cards/01537.png
+02155,tece,survivor,Newspaper,asset,0,/bundles/cards/02155.png
+01029,core,guardian,Shotgun,asset,4,/bundles/cards/01029.png
+01095,core,neutral,Elder Sign Amulet,asset,3,/bundles/cards/01095.png
+03230,tpm,guardian,First Aid,asset,3,/bundles/cards/03230.png
+03239,tpm,neutral,Emergency Cache,event,3,/bundles/cards/03239.png
+04104,tof,guardian,Marksmanship,event,1,/bundles/cards/04104.png
+04305,sha,guardian,Flamethrower,asset,5,/bundles/cards/04305.png
+05274,icc,guardian,Agency Backup,asset,5,/bundles/cards/05274.png
+06285,wgd,neutral,The Black Cat,asset,5,/bundles/cards/06285.png
+08026,eoep,guardian,Dodge,event,2,/bundles/cards/08026.png
+08029,eoep,guardian,Fang of Tyr'thrha,event,4,/bundles/cards/08029.png
+50002,rtnotz,guardian,Dynamite Blast,event,2,/bundles/cards/50002.png
+53002,rttfa,guardian,Survival Knife,asset,2,/bundles/cards/53002.png
+54011,rttcu,neutral,The Fool • 0,asset,3,/bundles/cards/54011.png
+60130,nat,guardian,Taunt,event,3,/bundles/cards/60130.png
+60132,nat,guardian,One-Two Punch,event,5,/bundles/cards/60132.png
+60424,jac,mystic,Guts,skill,2,/bundles/cards/60424.png
+02034,dwl,survivor,Bait and Switch,event,0,/bundles/cards/02034.png
+06189,tsh,neutral,The Silver Key,asset,NA,/bundles/cards/06189.png
+60521,ste,survivor,Leather Coat,asset,1,/bundles/cards/60521.png
+02233,uau,mystic,Rite of Seeking,asset,4,/bundles/cards/02233.png
+05231,uad,seeker,Knowledge is Power,event,0,/bundles/cards/05231.png
+05280,icc,mystic,Deny Existence,event,5,/bundles/cards/05280.png
+08027,eoep,guardian,Combat Training,asset,3,/bundles/cards/08027.png
+08030,eoep,guardian,Butterfly Swords,asset,5,/bundles/cards/08030.png
+07108,itd,guardian,Riot Whistle,asset,0,/bundles/cards/07108.png
+02112,tmm,mystic,Song of the Dead,asset,2,/bundles/cards/02112.png
+02114,tmm,survivor,Fire Extinguisher,asset,1,/bundles/cards/02114.png
+02140,tmm,neutral,The Necronomicon,asset,NA,/bundles/cards/02140.png
+02152,tece,rogue,Switchblade,asset,2,/bundles/cards/02152.png
+02156,tece,survivor,Lure,event,1,/bundles/cards/02156.png
+08090,eoep,guardian,Brand of Cthugha,asset,1,/bundles/cards/08090.png
+60123,nat,guardian,"""Get over here!""",event,2,/bundles/cards/60123.png
+60506,ste,survivor,Grimm's Fairy Tales,asset,0,/bundles/cards/60506.png
+01684,rcore,guardian,"""I've had worse…""",event,4,/bundles/cards/01684.png
+03315,dca,neutral,Key of Ys,asset,5,/bundles/cards/03315.png
+04266,tdoy,guardian,Blood Eclipse,event,3,/bundles/cards/04266.png
+60129,nat,guardian,Dynamite Blast,event,3,/bundles/cards/60129.png
+05315,bbt,guardian,"""I've had worse…""",event,2,/bundles/cards/05315.png
+60511,ste,survivor,Scrapper,asset,0,/bundles/cards/60511.png
+03041,ptc,neutral,Drawing the Sign,treachery,NA,/bundles/cards/03041.png
+03115,eotp,survivor,Plucky,asset,1,/bundles/cards/03115.png
+08130,eoep,neutral,Arm Injury,treachery,NA,/bundles/cards/08130.png
+01560,rcore,mystic,Shrivelling,asset,0,/bundles/cards/01560.png
+01564,rcore,mystic,Drawn to the Flame,event,0,/bundles/cards/01564.png
+01572,rcore,survivor,Leather Coat,asset,0,/bundles/cards/01572.png
+01577,rcore,survivor,Dig Deep,asset,0,/bundles/cards/01577.png
+01581,rcore,survivor,Survival Instinct,skill,0,/bundles/cards/01581.png
+01592,rcore,neutral,Manual Dexterity,skill,0,/bundles/cards/01592.png
+01103,core,neutral,Stubborn Detective,enemy,NA,/bundles/cards/01103.png
+06037,tde,neutral,Narcolepsy,treachery,NA,/bundles/cards/06037.png
+02264,wda,seeker,Strange Solution,asset,4,/bundles/cards/02264.png
+03192,apot,seeker,Archaic Glyphs,asset,3,/bundles/cards/03192.png
+51011,rtdwl,neutral,Through the Gates,treachery,NA,/bundles/cards/51011.png
+51052,rtdwl,neutral,Naomi O'Bannion,asset,NA,/bundles/cards/51052.png
+82022,coh,neutral,Abbess Allegria Di Biase,asset,NA,/bundles/cards/82022.png
+82025,coh,neutral,Pantalone,asset,NA,/bundles/cards/82025.png
+05232,uad,seeker,Esoteric Atlas,asset,1,/bundles/cards/05232.png
+02219,bota,neutral,Powder of Ibn Ghazi,asset,NA,/bundles/cards/02219.png
+02217,bota,neutral,Zebulon Whateley,asset,NA,/bundles/cards/02217.png
+02306,litas,mystic,Shrivelling,asset,5,/bundles/cards/02306.png
+02307,litas,mystic,Ward of Protection,event,5,/bundles/cards/02307.png
+60429,jac,mystic,Recharge,event,4,/bundles/cards/60429.png
+81019,cotr,neutral,Lady Esprit,asset,NA,/bundles/cards/81019.png
+82024,coh,neutral,Medico Della Peste,asset,NA,/bundles/cards/82024.png
+07120,itd,mystic,Paradoxical Covenant,asset,2,/bundles/cards/07120.png
+90038,rtr,neutral,Tidal Memento,asset,NA,/bundles/cards/90038.png
+90039,rtr,neutral,Wendy's Amulet,asset,NA,/bundles/cards/90039.png
+90040,rtr,neutral,Abandoned and Alone,treachery,NA,/bundles/cards/90040.png
+01559,rcore,mystic,Holy Rosary,asset,0,/bundles/cards/01559.png
+01561,rcore,mystic,Scrying,asset,0,/bundles/cards/01561.png
+01563,rcore,mystic,Arcane Initiate,asset,0,/bundles/cards/01563.png
+01566,rcore,mystic,Blinding Light,event,0,/bundles/cards/01566.png
+08084,eoep,guardian,On the Trail,event,1,/bundles/cards/08084.png
+04035,tfa,survivor,Yaotl,asset,1,/bundles/cards/04035.png
+04313,sha,survivor,Alter Fate,event,3,/bundles/cards/04313.png
+08050,eoep,rogue,Cheat the System,event,1,/bundles/cards/08050.png
+08054,eoep,rogue,Money Talks,event,2,/bundles/cards/08054.png
+08055,eoep,rogue,Black Market,event,2,/bundles/cards/08055.png
+05039,tcu,survivor,Five of Pentacles,asset,1,/bundles/cards/05039.png
+04034,tfa,survivor,Dumb Luck,event,0,/bundles/cards/04034.png
+05150,tsn,neutral,The Black Book,asset,NA,/bundles/cards/05150.png
+02189,bota,rogue,Streetwise,asset,3,/bundles/cards/02189.png
+04234,tcoa,mystic,Sacrifice,event,1,/bundles/cards/04234.png
+06324,woc,seeker,Abigail Foreman,asset,4,/bundles/cards/06324.png
+07159,def,mystic,Abyssal Tome,asset,2,/bundles/cards/07159.png
+60206,har,seeker,Celaeno Fragments,asset,0,/bundles/cards/60206.png
+06281,wgd,rogue,Delilah O'Rourke,asset,3,/bundles/cards/06281.png
+07266,lod,rogue,Hard Knocks,asset,4,/bundles/cards/07266.png
+54013,rttcu,neutral,Observed,asset,4,/bundles/cards/54013.png
+82026,coh,neutral,Gilded Volto,asset,NA,/bundles/cards/82026.png
+85031,blob,neutral,Mi-Go Weapon,asset,NA,/bundles/cards/85031.png
+50005,rtnotz,rogue,Hard Knocks,asset,2,/bundles/cards/50005.png
+08017,eoep,neutral,Shrewd Dealings,asset,NA,/bundles/cards/08017.png
+08018,eoep,neutral,Greed,treachery,NA,/bundles/cards/08018.png
+08051,eoep,rogue,Untimely Transaction,event,1,/bundles/cards/08051.png
+03027,ptc,seeker,In the Know,asset,1,/bundles/cards/03027.png
+08033,eoep,seeker,Archive of Conduits,asset,0,/bundles/cards/08033.png
+05112,tsn,mystic,Sign Magick,asset,0,/bundles/cards/05112.png
+01553,rcore,rogue,Opportunist,skill,0,/bundles/cards/01553.png
+01586,rcore,neutral,Knife,asset,0,/bundles/cards/01586.png
+01587,rcore,neutral,Flashlight,asset,0,/bundles/cards/01587.png
+02261,wda,guardian,"""I've had worse…""",event,4,/bundles/cards/02261.png
+03229,tpm,guardian,Mano a Mano,event,1,/bundles/cards/03229.png
+06018,tde,guardian,The Hungering Blade,asset,1,/bundles/cards/06018.png
+60122,nat,guardian,Counterpunch,event,2,/bundles/cards/60122.png
+60124,nat,guardian,Lesson Learned,event,2,/bundles/cards/60124.png
+60127,nat,guardian,Boxing Gloves,asset,3,/bundles/cards/60127.png
+07226,lif,mystic,Armageddon,asset,4,/bundles/cards/07226.png
+05020,tcu,guardian,Interrogate,event,0,/bundles/cards/05020.png
+08085,eoep,guardian,On the Trail,event,3,/bundles/cards/08085.png
+08099,eoep,seeker,Gené Beauregard,asset,3,/bundles/cards/08099.png
+01552,rcore,rogue,Sneak Attack,event,0,/bundles/cards/01552.png
+60319,win,rogue,Opportunist,skill,0,/bundles/cards/60319.png
+98017,bob,neutral,Molly Maxwell,asset,NA,/bundles/cards/98017.png
+98018,bob,neutral,Yaztaroth,treachery,NA,/bundles/cards/98018.png
+05228,fgg,neutral,Puzzle Box,asset,NA,/bundles/cards/05228.png
+60504,ste,neutral,Atychiphobia,treachery,NA,/bundles/cards/60504.png
+60518,ste,survivor,Oops!,event,0,/bundles/cards/60518.png
+01551,rcore,rogue,Backstab,event,0,/bundles/cards/01551.png
+07227,lif,mystic,Eye of Chaos,asset,4,/bundles/cards/07227.png
+01601,rcore,neutral,Mob Enforcer,enemy,NA,/bundles/cards/01601.png
+05042,tcu,neutral,The Tower • XVI,asset,NA,/bundles/cards/05042.png
+04015,tfa,neutral,Until the End of Time,asset,NA,/bundles/cards/04015.png
+04016,tfa,neutral,Voice of the Messenger,treachery,NA,/bundles/cards/04016.png
+06030,tde,survivor,Miss Doyle,asset,1,/bundles/cards/06030.png
+03028,ptc,rogue,Stealth,asset,0,/bundles/cards/03028.png
+03110,eotp,rogue,Knuckleduster,asset,0,/bundles/cards/03110.png
+07119,itd,mystic,Shroud of Shadows,asset,0,/bundles/cards/07119.png
+02031,dwl,mystic,Bind Monster,event,2,/bundles/cards/02031.png
+02269,wda,mystic,Jewel of Aureolus,asset,3,/bundles/cards/02269.png
+03035,ptc,mystic,Spirit Athame,asset,1,/bundles/cards/03035.png
+03197,apot,mystic,Recharge,event,2,/bundles/cards/03197.png
+03311,dca,mystic,Time Warp,event,2,/bundles/cards/03311.png
+04013,tfa,neutral,The Codex of Ages,asset,NA,/bundles/cards/04013.png
+04014,tfa,neutral,Serpents of Yig,enemy,NA,/bundles/cards/04014.png
+03147,tuo,guardian,Trench Knife,asset,0,/bundles/cards/03147.png
+01085,core,survivor,Will to Survive,event,3,/bundles/cards/01085.png
+07024,tic,seeker,Plan of Action,skill,0,/bundles/cards/07024.png
+01521,rcore,guardian,Guard Dog,asset,0,/bundles/cards/01521.png
+01576,rcore,survivor,Stray Cat,asset,0,/bundles/cards/01576.png
+02191,bota,mystic,Blood Pact,asset,3,/bundles/cards/02191.png
+05018,tcu,neutral,Mystifying Song,event,NA,/bundles/cards/05018.png
+05019,tcu,neutral,Baron Samedi,asset,NA,/bundles/cards/05019.png
+05260,uad,neutral,Penny White,asset,NA,/bundles/cards/05260.png
+50007,rtnotz,mystic,Arcane Studies,asset,2,/bundles/cards/50007.png
+04304,sha,guardian,Kerosene,asset,1,/bundles/cards/04304.png
+05023,tcu,guardian,Ace of Swords,asset,1,/bundles/cards/05023.png
+60131,nat,guardian,Physical Training,asset,4,/bundles/cards/60131.png
+01532,rcore,seeker,Research Librarian,asset,0,/bundles/cards/01532.png
+05152,wos,guardian,Well-Maintained,event,1,/bundles/cards/05152.png
+04198,hote,mystic,Defiance,skill,2,/bundles/cards/04198.png
+07308,itm,mystic,Rite of Equilibrium,event,5,/bundles/cards/07308.png
+08062,eoep,mystic,Close the Circle,asset,1,/bundles/cards/08062.png
+08064,eoep,mystic,Foresight,event,1,/bundles/cards/08064.png
+08103,eoep,seeker,Divination,asset,4,/bundles/cards/08103.png
+03030,ptc,rogue,Daring Maneuver,event,0,/bundles/cards/03030.png
+03152,tuo,rogue,Sneak Attack,event,2,/bundles/cards/03152.png
+06199,dsm,rogue,Three Aces,skill,1,/bundles/cards/06199.png
+03238,tpm,survivor,A Chance Encounter,event,2,/bundles/cards/03238.png
+06282,wgd,mystic,Summoned Hound,asset,1,/bundles/cards/06282.png
+01692,rcore,survivor,Eucatastrophe,event,3,/bundles/cards/01692.png
+06330,woc,survivor,Nightmare Bauble,asset,3,/bundles/cards/06330.png
+52010,rtptc,survivor,Gravedigger's Shovel,asset,2,/bundles/cards/52010.png
+02270,wda,survivor,A Chance Encounter,event,0,/bundles/cards/02270.png
+05191,fgg,survivor,Tennessee Sour Mash,asset,3,/bundles/cards/05191.png
+06246,pnr,survivor,Expeditious Retreat,skill,1,/bundles/cards/06246.png
+53004,rttfa,seeker,Ancient Stone,asset,4,/bundles/cards/53004.png
+01547,rcore,rogue,.41 Derringer,asset,0,/bundles/cards/01547.png
+01546,rcore,rogue,Pickpocketing,asset,0,/bundles/cards/01546.png
+01524,rcore,guardian,Dynamite Blast,event,0,/bundles/cards/01524.png
+01562,rcore,mystic,Arcane Studies,asset,0,/bundles/cards/01562.png
+01567,rcore,mystic,Fearless,skill,0,/bundles/cards/01567.png
+01538,rcore,seeker,Barricade,event,0,/bundles/cards/01538.png
+01519,rcore,guardian,First Aid,asset,0,/bundles/cards/01519.png
+08119,eoep,mystic,Earthly Serenity,asset,4,/bundles/cards/08119.png
+08106,eoep,seeker,Professor William Webb,asset,2,/bundles/cards/08106.png
+06235,pnr,guardian,Leadership,skill,2,/bundles/cards/06235.png
+08012a,eoep,neutral,Discipline,asset,NA,/bundles/cards/08012a.png
+01534,rcore,seeker,Hyperawareness,asset,0,/bundles/cards/01534.png
+01545,rcore,rogue,Burglary,asset,0,/bundles/cards/01545.png
+03014,ptc,neutral,Spirit-Speaker,asset,NA,/bundles/cards/03014.png
+03015,ptc,neutral,Angered Spirits,treachery,NA,/bundles/cards/03015.png
+04158,tbb,mystic,Recall the Future,asset,2,/bundles/cards/04158.png
+05113,tsn,mystic,Banish,event,1,/bundles/cards/05113.png
+05193,fgg,mystic,Enchanted Blade,asset,3,/bundles/cards/05193.png
+51007,rtdwl,mystic,Rite of Seeking,asset,2,/bundles/cards/51007.png
+02268,wda,mystic,Fearless,skill,2,/bundles/cards/02268.png
+04271,tdoy,mystic,Mists of R'lyeh,asset,4,/bundles/cards/04271.png
+06244,pnr,mystic,Twila Katherine Price,asset,3,/bundles/cards/06244.png
+60431,jac,mystic,Clairvoyance,asset,5,/bundles/cards/60431.png
+60432,jac,mystic,Ineffable Truth,asset,5,/bundles/cards/60432.png
+60523,ste,survivor,A Test of Will,event,2,/bundles/cards/60523.png
+02303,litas,seeker,Deciphered Reality,event,5,/bundles/cards/02303.png
+04235,tcoa,mystic,Crystalline Elder Sign,asset,3,/bundles/cards/04235.png
+05276,icc,seeker,Studious,asset,3,/bundles/cards/05276.png
+52012,rtptc,neutral,Unspeakable Oath,treachery,NA,/bundles/cards/52012.png
+04231,tcoa,seeker,Ancient Stone,asset,4,/bundles/cards/04231.png
+98011,tftbw,neutral,Foolishness,asset,NA,/bundles/cards/98011.png
+98012,tftbw,neutral,To Fight the Black Wind,treachery,NA,/bundles/cards/98012.png
+02113,tmm,survivor,Oops!,event,0,/bundles/cards/02113.png
+02226,uau,guardian,Springfield M1903,asset,4,/bundles/cards/02226.png
+02301,litas,guardian,Lightning Gun,asset,5,/bundles/cards/02301.png
+04229,tcoa,guardian,M1918 BAR,asset,4,/bundles/cards/04229.png
+05273,icc,guardian,Mk 1 Grenades,asset,4,/bundles/cards/05273.png
+08088,eoep,guardian,Old Shotgun,asset,2,/bundles/cards/08088.png
+08089,eoep,guardian,Quickdraw Holster,asset,4,/bundles/cards/08089.png
+04230,tcoa,seeker,Ancient Stone,asset,4,/bundles/cards/04230.png
+06278,wgd,seeker,Surprising Find,skill,1,/bundles/cards/06278.png
+07008,tic,neutral,Obscure Studies,event,NA,/bundles/cards/07008.png
+07009,tic,neutral,Whispers from the Deep,skill,NA,/bundles/cards/07009.png
+07161,def,survivor,Third Time's a Charm,event,2,/bundles/cards/07161.png
+04038,tfa,neutral,Dark Pact,event,NA,/bundles/cards/04038.png
+60120,nat,guardian,Evidence!,event,1,/bundles/cards/60120.png
+90025,btb,neutral,Directive,asset,NA,/bundles/cards/90025.png
+90026,btb,neutral,Directive,asset,NA,/bundles/cards/90026.png
+90028,btb,neutral,Directive,asset,NA,/bundles/cards/90028.png
+90031,btb,neutral,Cover Up,treachery,NA,/bundles/cards/90031.png
+06284,wgd,survivor,Nothing Left to Lose,event,3,/bundles/cards/06284.png
+07109,itd,guardian,Righteous Hunt,event,1,/bundles/cards/07109.png
+07267,lod,mystic,Ikiaq,asset,3,/bundles/cards/07267.png
+01584,rcore,survivor,Lucky!,event,2,/bundles/cards/01584.png
+01558,rcore,mystic,Forbidden Knowledge,asset,0,/bundles/cards/01558.png
+07122,itd,survivor,Ancient Covenant,asset,2,/bundles/cards/07122.png
+07190,hhg,guardian,Blessing of Isis,asset,3,/bundles/cards/07190.png
+04273,tdoy,survivor,Old Hunting Rifle,asset,3,/bundles/cards/04273.png
+52009,rtptc,survivor,Lantern,asset,2,/bundles/cards/52009.png
+08095,eoep,guardian,Protective Gear,asset,2,/bundles/cards/08095.png
+54012,rttcu,neutral,Moon Pendant,asset,2,/bundles/cards/54012.png
+51008,rtdwl,mystic,Clarity of Mind,asset,3,/bundles/cards/51008.png
+08092,eoep,guardian,Brand of Cthugha,asset,4,/bundles/cards/08092.png
+08723,eoec,neutral,Tekeli-li,treachery,NA,NA
+08724,eoec,neutral,Tekeli-li,treachery,NA,NA
+08728,eoec,neutral,Tekeli-li,treachery,NA,NA
+08734,eoec,neutral,Ellsworth's Boots,asset,NA,NA
+60425,jac,mystic,Azure Flame,asset,3,/bundles/cards/60425.png
+08726,eoec,neutral,Tekeli-li,treachery,NA,NA
+08729,eoec,neutral,Tekeli-li,treachery,NA,NA
+01540,rcore,seeker,Magnifying Glass,asset,1,/bundles/cards/01540.png
+01542,rcore,seeker,Encyclopedia,asset,2,/bundles/cards/01542.png
+01600,rcore,neutral,Hypochondria,treachery,NA,/bundles/cards/01600.png
+01685,rcore,seeker,Seeking Answers,event,2,/bundles/cards/01685.png
+01686,rcore,seeker,Old Book of Lore,asset,3,/bundles/cards/01686.png
+07113,itd,seeker,Blasphemous Covenant,asset,2,/bundles/cards/07113.png
+08037,eoep,seeker,Survey the Area,skill,1,/bundles/cards/08037.png
+08038,eoep,seeker,Medical Texts,asset,2,/bundles/cards/08038.png
+08040,eoep,seeker,Scientific Theory,asset,3,/bundles/cards/08040.png
+08044,eoep,seeker,Archive of Conduits,asset,4,/bundles/cards/08044.png
+08045,eoep,seeker,Prophesiae Profana,asset,5,/bundles/cards/08045.png
+08121,eoep,guardian,Sleuth,asset,3,/bundles/cards/08121.png
+08736,eoec,neutral,Sinha's Medical Kit,asset,NA,NA
+03156,tuo,survivor,A Test of Will,event,1,/bundles/cards/03156.png
+08131,eoep,neutral,Leg Injury,treachery,NA,/bundles/cards/08131.png
+60531,ste,survivor,Déjà Vu,asset,5,/bundles/cards/60531.png
+60218,har,seeker,Preposterous Sketches,event,0,/bundles/cards/60218.png
+05229,uad,guardian,Warning Shot,event,0,/bundles/cards/05229.png
+90029,btb,neutral,Directive,asset,NA,/bundles/cards/90029.png
+04275,tdoy,neutral,Hemispheric Map,asset,3,/bundles/cards/04275.png
+60320,win,rogue,Liquid Courage,asset,1,/bundles/cards/60320.png
+04102,tfa,neutral,Poisoned,treachery,NA,/bundles/cards/04102.png
+01082,core,survivor,Aquinnah,asset,1,/bundles/cards/01082.png
+01094,core,neutral,Bulletproof Vest,asset,3,/bundles/cards/01094.png
+02230,uau,rogue,Lucky Dice,asset,2,/bundles/cards/02230.png
+02309,litas,survivor,Try and Try Again,asset,3,/bundles/cards/02309.png
+02310,litas,neutral,The Red-Gloved Man,asset,5,/bundles/cards/02310.png
+08039,eoep,seeker,Unearth the Ancients,event,2,/bundles/cards/08039.png
+03157,tuo,survivor,Devil's Luck,event,1,/bundles/cards/03157.png
+07265,lod,rogue,Geas,asset,2,/bundles/cards/07265.png
+03312,dca,mystic,Seal of the Elder Sign,skill,5,/bundles/cards/03312.png
+04264,tcoa,neutral,Out of Body Experience,treachery,NA,/bundles/cards/04264.png
+04310,sha,mystic,Shards of the Void,asset,3,/bundles/cards/04310.png
+05283,icc,neutral,Anna Kaslow,asset,4,/bundles/cards/05283.png
+07040,tic,neutral,Day of Reckoning,treachery,NA,/bundles/cards/07040.png
+08036,eoep,seeker,Join the Caravan,event,1,/bundles/cards/08036.png
+08733,eoec,neutral,Dyer's Sketches,event,NA,NA
+51003,rtdwl,seeker,Preposterous Sketches,event,2,/bundles/cards/51003.png
+07197,hhg,survivor,Signum Crucis,skill,2,/bundles/cards/07197.png
+05190,fgg,rogue,Tennessee Sour Mash,asset,3,/bundles/cards/05190.png
+06326,woc,rogue,"Joey ""The Rat"" Vigil",asset,3,/bundles/cards/06326.png
+07225,lif,rogue,Eye of the Djinn,asset,2,/bundles/cards/07225.png
+08647,eoec,neutral,Possessed,treachery,NA,NA
+08737,eoec,neutral,Takada's Cache,event,NA,NA
+06276,wgd,guardian,Empty Vessel,asset,4,/bundles/cards/06276.png
+52007,rtptc,mystic,Alchemical Transmutation,asset,2,/bundles/cards/52007.png
+54007,rttcu,mystic,The Hierophant • V,asset,3,/bundles/cards/54007.png
+01544,rcore,rogue,Switchblade,asset,0,/bundles/cards/01544.png
+01549,rcore,rogue,Hard Knocks,asset,0,/bundles/cards/01549.png
+06200,dsm,rogue,Burglary,asset,2,/bundles/cards/06200.png
+08068,eoep,mystic,Healing Words,asset,3,/bundles/cards/08068.png
+08070,eoep,mystic,True Magick,asset,5,/bundles/cards/08070.png
+06038,tde,neutral,Your Worst Nightmare,enemy,NA,/bundles/cards/06038.png
+01068,core,mystic,Mind Wipe,event,1,/bundles/cards/01068.png
+05321,bbt,mystic,Wither,asset,4,/bundles/cards/05321.png
+08110,eoep,rogue,Ethereal Slip,event,2,/bundles/cards/08110.png
+08109,eoep,rogue,Blur,asset,1,/bundles/cards/08109.png
+05318,bbt,seeker,Glimpse the Unthinkable,event,5,/bundles/cards/05318.png
+52011,rtptc,neutral,Unspeakable Oath,treachery,NA,/bundles/cards/52011.png
+06279,wgd,seeker,Old Book of Lore,asset,3,/bundles/cards/06279.png
+60227,har,seeker,Seeking Answers,event,2,/bundles/cards/60227.png
+02271,wda,survivor,Stroke of Luck,skill,2,/bundles/cards/02271.png
+08024,eoep,guardian,Defensive Stance,skill,1,/bundles/cards/08024.png
+01527,rcore,guardian,Police Badge,asset,2,/bundles/cards/01527.png
+01528,rcore,guardian,Beat Cop,asset,2,/bundles/cards/01528.png
+60529,ste,survivor,Chainsaw,asset,4,/bundles/cards/60529.png
+98020,dre,neutral,Ruth Westmacott,asset,NA,NA
+98021,dre,neutral,Liber Omnium Finium,treachery,NA,NA
+54014,rttcu,neutral,Damned,treachery,NA,/bundles/cards/54014.png
+08056,eoep,rogue,Moxie,asset,3,/bundles/cards/08056.png
+08727,eoec,neutral,Tekeli-li,treachery,NA,NA
+08725,eoec,neutral,Tekeli-li,treachery,NA,NA
+60421,jac,mystic,Grotesque Statue,asset,2,/bundles/cards/60421.png
+53006,rttfa,rogue,Colt Vest Pocket,asset,2,/bundles/cards/53006.png
+08091,eoep,guardian,Nkosi Mabati,asset,3,/bundles/cards/08091.png
+05237,uad,survivor,Fortune or Fate,event,2,/bundles/cards/05237.png
+07110,itd,guardian,Sacred Covenant,asset,2,/bundles/cards/07110.png
+04020,tfa,guardian,Reliable,event,1,/bundles/cards/04020.png
+03040,ptc,neutral,Overzealous,treachery,NA,/bundles/cards/03040.png
+60514,ste,survivor,Dumb Luck,event,0,/bundles/cards/60514.png
+07309,itm,survivor,Jacob Morrison,asset,3,/bundles/cards/07309.png
+03268,bsr,rogue,Suggestion,asset,4,/bundles/cards/03268.png
+01069,core,mystic,Blinding Light,event,2,/bundles/cards/01069.png
+06158,tsh,seeker,Otherworld Codex,asset,2,/bundles/cards/06158.png
+04233,tcoa,rogue,Pay Day,event,1,/bundles/cards/04233.png
+08025,eoep,guardian,Butterfly Swords,asset,2,/bundles/cards/08025.png
+60230,har,seeker,Forbidden Tome,asset,3,/bundles/cards/60230.png
+08079,eoep,survivor,Blood Will Have Blood,event,2,/bundles/cards/08079.png
+08114,eoep,rogue,Precious Memento,asset,4,/bundles/cards/08114.png
+06198,dsm,seeker,Extensive Research,event,1,/bundles/cards/06198.png
+07156,def,rogue,Priest of Two Faiths,asset,1,/bundles/cards/07156.png
+54010,rttcu,survivor,Trial by Fire,event,3,/bundles/cards/54010.png
+60413,jac,mystic,Astral Travel,event,0,/bundles/cards/60413.png
+54006,rttcu,rogue,Well Connected,asset,3,/bundles/cards/54006.png
+03154,tuo,mystic,Book of Shadows,asset,1,/bundles/cards/03154.png
+85029,blob,neutral,Universal Solvent,asset,NA,/bundles/cards/85029.png
+08042,eoep,seeker,Archive of Conduits,asset,4,/bundles/cards/08042.png
+51009,rtdwl,survivor,Oops!,event,2,/bundles/cards/51009.png
+54015,rttcu,neutral,The Devil • XV,asset,NA,/bundles/cards/54015.png
+60222,har,seeker,Esoteric Atlas,asset,2,/bundles/cards/60222.png
+07038,tic,neutral,Accursed Follower,enemy,NA,/bundles/cards/07038.png
+53013,rttfa,neutral,Offer You Cannot Refuse,treachery,NA,/bundles/cards/53013.png
+60221,har,seeker,Glimpse the Unthinkable,event,1,/bundles/cards/60221.png
+03236,tpm,mystic,Scrying,asset,3,/bundles/cards/03236.png
+01517,rcore,guardian,Physical Training,asset,0,/bundles/cards/01517.png
+06241,pnr,mystic,Empower Self,asset,2,/bundles/cards/06241.png
+06242,pnr,mystic,Empower Self,asset,2,/bundles/cards/06242.png
+06243,pnr,mystic,Empower Self,asset,2,/bundles/cards/06243.png
+90018,bad,neutral,Heirloom of Hyperborea,asset,NA,/bundles/cards/90018.png
+90019,bad,neutral,Dark Memory,event,NA,/bundles/cards/90019.png
+04031,tfa,mystic,Protective Incantation,asset,1,/bundles/cards/04031.png
+04311,sha,mystic,Seal of the Seventh Sign,asset,5,/bundles/cards/04311.png
+54041,rttcu,neutral,Erynn MacAoidh,asset,NA,/bundles/cards/54041.png
+05040,tcu,neutral,Ace of Rods,asset,1,/bundles/cards/05040.png
+01585,rcore,survivor,Will to Survive,event,3,/bundles/cards/01585.png
+08087,eoep,guardian,Snipe,event,1,/bundles/cards/08087.png
+98005,tdor,neutral,Mysteries Remain,event,NA,/bundles/cards/98005.png
+98006,tdor,neutral,The Dirge of Reason,treachery,NA,/bundles/cards/98006.png
+53008,rttfa,mystic,The Chthonian Stone,asset,3,/bundles/cards/53008.png
+08124,eoep,seeker,Antiquary,asset,3,/bundles/cards/08124.png
+01056,core,rogue,Sure Gamble,event,3,/bundles/cards/01056.png
+50006,rtnotz,rogue,Hot Streak,event,2,/bundles/cards/50006.png
+50009,rtnotz,survivor,Dig Deep,asset,2,/bundles/cards/50009.png
+06161,tsh,rogue,Swift Reload,event,2,/bundles/cards/06161.png
+51005,rtdwl,rogue,Contraband,event,2,/bundles/cards/51005.png
+04236,tcoa,survivor,On Your Own,asset,3,/bundles/cards/04236.png
+60520,ste,survivor,Cherished Keepsake,asset,1,/bundles/cards/60520.png
+60125,nat,guardian,Mano a Mano,event,2,/bundles/cards/60125.png
+01689,rcore,mystic,Rite of Seeking,asset,2,/bundles/cards/01689.png
+03143,eotp,neutral,The Tattered Cloak,asset,NA,/bundles/cards/03143.png
+01596,rcore,neutral,Amnesia,treachery,NA,/bundles/cards/01596.png
+01597,rcore,neutral,Paranoia,treachery,NA,/bundles/cards/01597.png
+01598,rcore,neutral,Haunted,treachery,NA,/bundles/cards/01598.png
+01599,rcore,neutral,Psychosis,treachery,NA,/bundles/cards/01599.png
+01602,rcore,neutral,Silver Twilight Acolyte,enemy,NA,/bundles/cards/01602.png
+01603,rcore,neutral,Stubborn Detective,enemy,NA,/bundles/cards/01603.png
+08646,eoec,neutral,Frostbitten,treachery,NA,NA
+07306,itm,rogue,Justify the Means,skill,3,/bundles/cards/07306.png
+60212,har,seeker,Laboratory Assistant,asset,0,/bundles/cards/60212.png
+60220,har,seeker,Library Docent,asset,1,/bundles/cards/60220.png
+60224,har,seeker,Cryptic Writings,event,2,/bundles/cards/60224.png
+60231,har,seeker,Farsight,asset,4,/bundles/cards/60231.png
+03111,eotp,rogue,Moxie,asset,1,/bundles/cards/03111.png
+07083,tic,neutral,Elina Harper,asset,NA,/bundles/cards/07083.png
+07026,tic,rogue,Dark Ritual,asset,0,/bundles/cards/07026.png
+60525,ste,survivor,Dumb Luck,event,2,/bundles/cards/60525.png
+07310,itm,survivor,Shrine of the Moirai,event,3,/bundles/cards/07310.png
+02308,litas,survivor,Aquinnah,asset,3,/bundles/cards/02308.png
+07160,def,survivor,Butterfly Effect,event,1,/bundles/cards/07160.png
+08738,eoec,neutral,Anyu,asset,NA,NA
+07264,lod,seeker,Hyperawareness,asset,4,/bundles/cards/07264.png
+60324,win,rogue,Slip Away,event,2,/bundles/cards/60324.png
+60108,nat,guardian,Physical Training,asset,0,/bundles/cards/60108.png
+60113,nat,guardian,Dodge,event,0,/bundles/cards/60113.png
+01083,core,survivor,Close Call,event,2,/bundles/cards/01083.png
+54003,rttcu,seeker,The World • XXI,asset,3,/bundles/cards/54003.png
+98014,tdg,neutral,Nautical Prowess,skill,NA,/bundles/cards/98014.png
+98015,tdg,neutral,Dreams of the Deep,skill,NA,/bundles/cards/98015.png
+60327,win,rogue,Sharpshooter,asset,3,/bundles/cards/60327.png
+01070,core,mystic,Book of Shadows,asset,3,/bundles/cards/01070.png
+90002,rod,neutral,Daisy's Tote Bag,asset,NA,/bundles/cards/90002.png
+90003,rod,neutral,The Necronomicon,asset,NA,/bundles/cards/90003.png
+04159,tbb,survivor,Try and Try Again,asset,1,/bundles/cards/04159.png
+06156,tsh,guardian,"""Fool me once...""",event,1,/bundles/cards/06156.png
+07180,def,neutral,Awakened Mantle,asset,NA,/bundles/cards/07180.png
+83058,guardians,neutral,Summoned Nightgaunt,asset,NA,/bundles/cards/83058.png
+08069,eoep,mystic,Grounded,asset,3,/bundles/cards/08069.png
+07151,itd,neutral,Teachings of the Order,asset,NA,/bundles/cards/07151.png
+54005,rttcu,rogue,Knight of Swords,asset,3,/bundles/cards/54005.png
+98002,hoth,neutral,Green Man Medallion,asset,NA,/bundles/cards/98002.png
+06079,tde,neutral,Randolph Carter,asset,NA,/bundles/cards/06079.png
+03234,tpm,rogue,.41 Derringer,asset,2,/bundles/cards/03234.png
+05320,bbt,rogue,"Double, Double",asset,4,/bundles/cards/05320.png
+51006,rtdwl,rogue,Think on Your Feet,event,2,/bundles/cards/51006.png
+60121,nat,guardian,Galvanize,event,1,/bundles/cards/60121.png
+98003,hoth,neutral,Sacrificial Beast,enemy,NA,/bundles/cards/98003.png
+06275,pnr,neutral,False Awakening,treachery,NA,/bundles/cards/06275.png
+03107,eotp,guardian,Combat Training,asset,1,/bundles/cards/03107.png
+05188,fgg,seeker,Scroll of Secrets,asset,3,/bundles/cards/05188.png
+07193,hhg,rogue,Ríastrad,event,1,/bundles/cards/07193.png
+07273,lod,neutral,Purifying Corruption,asset,4,/bundles/cards/07273.png
+08082,eoep,survivor,Fend Off,event,3,/bundles/cards/08082.png
+02019,dwl,guardian,Taunt,event,2,/bundles/cards/02019.png
+01529,rcore,guardian,Shotgun,asset,4,/bundles/cards/01529.png
+01691,rcore,survivor,Aquinnah,asset,3,/bundles/cards/01691.png
+07155,def,seeker,Gaze of Ouraxsh,event,2,/bundles/cards/07155.png
+60331,win,rogue,Beretta M1918,asset,4,/bundles/cards/60331.png
+01568,rcore,mystic,Mind Wipe,event,1,/bundles/cards/01568.png
+01526,rcore,guardian,Extra Ammunition,event,1,/bundles/cards/01526.png
+60427,jac,mystic,Ineffable Truth,asset,3,/bundles/cards/60427.png
+53037,rttfa,neutral,Veda Whitsley,asset,NA,/bundles/cards/53037.png
+60423,jac,mystic,Hypnotic Gaze,event,2,/bundles/cards/60423.png
+53003,rttfa,seeker,Truth from Fiction,event,2,/bundles/cards/53003.png
+60330,win,rogue,Copycat,skill,3,/bundles/cards/60330.png
+52004,rtptc,seeker,Archaic Glyphs,asset,3,/bundles/cards/52004.png
+01571,rcore,mystic,Grotesque Statue,asset,4,/bundles/cards/01571.png
+01683,rcore,guardian,First Aid,asset,3,/bundles/cards/01683.png
+50004,rtnotz,seeker,Barricade,event,3,/bundles/cards/50004.png
+01594,rcore,neutral,Bulletproof Vest,asset,3,/bundles/cards/01594.png
+01595,rcore,neutral,Elder Sign Amulet,asset,3,/bundles/cards/01595.png
+06240,pnr,rogue,Daredevil,skill,2,/bundles/cards/06240.png
+07268,lod,mystic,Flute of the Outer Gods,asset,4,/bundles/cards/07268.png
+01690,rcore,mystic,Scrying,asset,3,/bundles/cards/01690.png
+01688,rcore,rogue,.41 Derringer,asset,2,/bundles/cards/01688.png
+01541,rcore,seeker,Disc of Itzamna,asset,2,/bundles/cards/01541.png
+01554,rcore,rogue,Leo De Luca,asset,1,/bundles/cards/01554.png
+01555,rcore,rogue,Cat Burglar,asset,1,/bundles/cards/01555.png
+01556,rcore,rogue,Sure Gamble,event,3,/bundles/cards/01556.png
+01569,rcore,mystic,Blinding Light,event,2,/bundles/cards/01569.png
+01570,rcore,mystic,Book of Shadows,asset,3,/bundles/cards/01570.png
+01582,rcore,survivor,Aquinnah,asset,1,/bundles/cards/01582.png
+01583,rcore,survivor,Close Call,event,2,/bundles/cards/01583.png
+01543,rcore,seeker,Cryptic Research,event,4,/bundles/cards/01543.png
+08730,eoec,neutral,Claypool's Furs,asset,NA,NA
+52005,rtptc,rogue,Stealth,asset,3,/bundles/cards/52005.png
+53007,rttfa,mystic,Mists of R'lyeh,asset,2,/bundles/cards/53007.png
+09019,tskp,neutral,Bonnie Walsh,asset,NA,/bundles/cards/09019.png
+09020,tskp,neutral,Burden of Leadership,treachery,NA,/bundles/cards/09020.png
+05258,uad,neutral,Gavriella Mizrah,asset,NA,/bundles/cards/05258.png
+07269,lod,survivor,A Watchful Peace,event,3,/bundles/cards/07269.png
+07189,hhg,guardian,Enchanted Armor,asset,2,/bundles/cards/07189.png
+07181,def,neutral,Headdress of Y'ha-nthlei,asset,NA,/bundles/cards/07181.png
+07194,hhg,rogue,Tristan Botley,asset,2,/bundles/cards/07194.png
+07195,hhg,mystic,Curse of Aeons,asset,3,/bundles/cards/07195.png
+08076,eoep,survivor,Burn After Reading,event,1,/bundles/cards/08076.png
+51004,rtdwl,seeker,Strange Solution,asset,4,/bundles/cards/51004.png
+90027,btb,neutral,Directive,asset,NA,/bundles/cards/90027.png
+60229,har,seeker,Forbidden Tome,asset,3,/bundles/cards/60229.png
+04108,tof,rogue,Fence,asset,1,/bundles/cards/04108.png
+04307,sha,seeker,Pnakotic Manuscripts,asset,5,/bundles/cards/04307.png
+05323,bbt,survivor,Lure,event,2,/bundles/cards/05323.png
+82023,coh,neutral,Bauta,asset,NA,/bundles/cards/82023.png
+98008,iotv,neutral,Split the Angle,asset,NA,/bundles/cards/98008.png
+98009,iotv,neutral,Vengeful Hound,enemy,NA,/bundles/cards/98009.png
+08732,eoec,neutral,Cookie's Custom .32,asset,NA,NA
+02027,dwl,rogue,Hired Muscle,asset,1,/bundles/cards/02027.png
+05230,uad,guardian,Telescopic Sight,event,3,/bundles/cards/05230.png
+07157,def,rogue,Under Surveillance,event,1,/bundles/cards/07157.png
+09016,tskp,neutral,Darrell's Kodak,asset,NA,NA
+09017,tskp,neutral,Ruined Film,treachery,NA,NA
+09028,tskp,guardian,Motivational Speech,event,0,/bundles/cards/09028.png
+09066,tskp,rogue,Hit and Run,event,0,NA
+05187,fgg,rogue,.45 Thompson,asset,3,/bundles/cards/05187.png
+09064,tskp,rogue,Thieves' Kit,asset,0,/bundles/cards/09064.png
+09120,tskp,neutral,Tool Belt,asset,0,NA
+07223,lif,seeker,Guided by the Unseen,asset,3,/bundles/cards/07223.png
+09029,tskp,guardian,One in the Chamber,event,0,/bundles/cards/09029.png
+09009,tskp,neutral,Grappling Hook,asset,NA,NA
+09010,tskp,neutral,Agent Fletcher,enemy,NA,NA
+09067,tskp,rogue,"""I'll take that!""",event,0,/bundles/cards/09067.png
+09069,tskp,rogue,Quick Getaway,event,0,NA
+07224,lif,rogue,"""Lucky"" Penny",asset,2,/bundles/cards/07224.png
+07307,itm,rogue,Lucky Dice,asset,3,/bundles/cards/07307.png
+50003,rtnotz,seeker,Hyperawareness,asset,2,/bundles/cards/50003.png
+02228,uau,seeker,Expose Weakness,event,1,/bundles/cards/02228.png
+03109,eotp,seeker,Scientific Theory,asset,1,/bundles/cards/03109.png
+09088,tskp,mystic,String of Curses,event,0,NA
+09094,tskp,mystic,Sin-Eater,asset,3,/bundles/cards/09094.png
+53001,rttfa,guardian,Blood Eclipse,event,1,/bundles/cards/53001.png
+09107,tskp,survivor,Predator or Prey,event,0,/bundles/cards/09107.png
+04154,tbb,seeker,Quick Study,asset,2,/bundles/cards/04154.png
+09047,tskp,seeker,Captivating Discovery,event,0,/bundles/cards/09047.png
+09038,tskp,guardian,Girish Kadakia,asset,4,NA
+09123,tskp,neutral,Soul Sanctification,asset,3,NA
+09074,tskp,rogue,Breaking and Entering,event,2,NA
+09084,tskp,mystic,Hallowed Chalice,asset,0,NA
+09103,tskp,survivor,Improvised Shield,asset,0,/bundles/cards/09103.png
+09116,tskp,survivor,Salvage,event,2,/bundles/cards/09116.png
+83055,guardians,neutral,John & Jessie Burke,asset,NA,/bundles/cards/83055.png
+09075,tskp,rogue,Thieves' Kit,asset,3,NA
+09106,tskp,survivor,Making Preparations,event,0,NA
+09042,tskp,seeker,The Raven Quill,event,0,NA
+09109,tskp,survivor,At a Crossroads,event,1,NA
+09033,tskp,guardian,Field Agent,asset,2,/bundles/cards/09033.png
+09062,tskp,rogue,Disguise,asset,0,NA
+09041,tskp,seeker,Empirical Hypothesis,asset,0,NA
+09105,tskp,survivor,Exploit Weakness,event,0,NA
+09045,tskp,seeker,Research Notes,asset,0,NA
+09086,tskp,mystic,Eldritch Initiation,event,0,NA
+09099,tskp,survivor,Pocket Multi Tool,asset,0,/bundles/cards/09099.png
+09052,tskp,seeker,Existential Riddle,event,1,/bundles/cards/09052.png
+04303,tdoy,neutral,Relic of Ages,asset,NA,/bundles/cards/04303.png
+04191,tbb,neutral,Relic of Ages,asset,NA,/bundles/cards/04191.png
+07179,def,neutral,Waveworn Idol,asset,NA,/bundles/cards/07179.png
+09027,tskp,guardian,Grievous Wound,event,0,/bundles/cards/09027.png
+09021,tskp,guardian,Hunter's Armor,asset,0,/bundles/cards/09021.png
+09059,tskp,rogue,Damning Testimony,asset,0,/bundles/cards/09059.png
+09065,tskp,rogue,Hidden Pocket,event,0,NA
+09101,tskp,survivor,Grizzled,skill,0,NA
+09108,tskp,survivor,Shed a Light,event,0,NA
+09112,tskp,survivor,Gumption,skill,1,NA
+09117,tskp,survivor,Old Keyring,asset,3,NA
+09049,tskp,seeker,Analysis,skill,0,NA
+09054,tskp,seeker,Dr. William T. Maleson,asset,2,NA
+09055,tskp,seeker,Press Pass,asset,2,NA
+09002,tskp,neutral,"""As you wish""",skill,NA,/bundles/cards/09002.png
+09003,tskp,neutral,Selfless to a Fault,treachery,NA,/bundles/cards/09003.png
+09024,tskp,guardian,Obsidian Bracelet,asset,0,NA
+09031,tskp,guardian,Helping Hand,skill,0,/bundles/cards/09031.png
+09044,tskp,seeker,Grim Memoir,asset,0,NA
+09087,tskp,mystic,Explosive Ward,event,0,NA
+09022,tskp,guardian,Runic Axe,asset,0,/bundles/cards/09022.png
+09068,tskp,rogue,Kicking the Hornet's Nest,event,0,NA
+09070,tskp,rogue,Calculated Risk,skill,0,NA
+09077,tskp,rogue,Underworld Market,asset,2,NA
+09012,tskp,neutral,Word of Woe,event,NA,/bundles/cards/09012.png
+09013,tskp,neutral,Word of Weal,event,NA,/bundles/cards/09013.png
+09014,tskp,neutral,Deafening Silence,treachery,NA,/bundles/cards/09014.png
+09079,tskp,mystic,Living Ink,asset,0,NA
+09080,tskp,mystic,Summoned Servitor,asset,0,/bundles/cards/09080.png
+09082,tskp,mystic,Ceremonial Sickle,asset,0,/bundles/cards/09082.png
+09005,tskp,neutral,Bonesaw,asset,NA,NA
+09006,tskp,neutral,On the Mend,skill,NA,NA
+09007,tskp,neutral,Wounded Bystander,asset,NA,NA
+09056,tskp,seeker,Surgical Kit,asset,3,NA
+09043,tskp,seeker,Dissection Tools,asset,0,NA
+09061,tskp,rogue,Honed Instinct,event,0,NA
+09083,tskp,mystic,Dowsing Rod,asset,0,/bundles/cards/09083.png
+09085,tskp,mystic,Onyx Pentacle,asset,0,NA
+09046,tskp,seeker,Bizarre Diagnosis,event,0,NA
+09121,tskp,neutral,Refine,event,0,NA
+09060,tskp,rogue,Friends in Low Places,event,0,NA
+09081,tskp,mystic,Power Word,event,0,/bundles/cards/09081.png
+09053,tskp,seeker,Guidance,event,1,NA
+03266,bsr,seeker,Arcane Insight,asset,4,/bundles/cards/03266.png
+03199,apot,survivor,Snare Trap,event,2,/bundles/cards/03199.png
+09100,tskp,survivor,Makeshift Trap,event,0,NA
+09102,tskp,survivor,Idol of Xanatos,asset,0,NA
+09063,tskp,rogue,Embezzled Treasure,asset,0,NA
+09089,tskp,mystic,Binder's Jar,asset,1,NA
+09091,tskp,mystic,Astral Mirror,asset,2,NA
+09048,tskp,seeker,Map the Area,event,0,/bundles/cards/09048.png
+09093,tskp,mystic,Moonlight Ritual,event,2,NA
+09032,tskp,guardian,Bestow Resolve,asset,2,NA
+09090,tskp,mystic,Ghastly Possession,skill,1,NA
+09034,tskp,guardian,Guard Dog,asset,2,NA
+09023,tskp,guardian,Custom Modifications,event,0,NA
+09025,tskp,guardian,Bolas,event,0,NA
+06028,tde,mystic,The Stars Are Right,event,NA,/bundles/cards/06028.png
+09071,tskp,rogue,Stylish Coat,asset,1,NA
+09030,tskp,guardian,Fighting Lessons,skill,0,/bundles/cards/09030.png
+09039,tskp,guardian,Ever Vigilant,event,4,NA
+09111,tskp,survivor,Nature of the Beast,event,1,NA
+09092,tskp,mystic,Elle Rubash,asset,2,/bundles/cards/09092.png
+09095,tskp,mystic,Uncage the Soul,event,3,NA
+09040,tskp,seeker,Alchemical Distillation,asset,0,/bundles/cards/09040.png
+09127,tskp,neutral,Ectoplasmic Horror,enemy,NA,NA
+04194,hote,seeker,Otherworldly Compass,asset,2,/bundles/cards/04194.png
+09128,tskp,neutral,Underprepared,event,NA,NA
+09073,tskp,rogue,Dirty Fighting,asset,2,NA
+09058,tskp,seeker,Gray's Anatomy,asset,5,NA
+09122,tskp,neutral,Flashlight,asset,3,NA
+04202,hote,survivor,Against All Odds,event,2,/bundles/cards/04202.png
+09072,tskp,rogue,Chuck Fergus,asset,2,NA
+09036,tskp,guardian,Prepared for the Worst,event,2,NA
+09118,tskp,survivor,Fickle Fortune,event,3,NA
+09104,tskp,survivor,End of the Road,event,0,NA
+09119,tskp,neutral,Hyperphysical Shotcaster,asset,0,NA
+09115,tskp,survivor,Heed the Dream,event,2,/bundles/cards/09115.png
+53014,rttfa,neutral,Fine Print,treachery,NA,/bundles/cards/53014.png
+53015,rttfa,neutral,Sell Your Soul,treachery,NA,/bundles/cards/53015.png
+09026,tskp,guardian,Breach the Door,event,0,NA
+09057,tskp,seeker,Fingerprint Kit,asset,4,NA
+60307,win,rogue,Switchblade,asset,0,/bundles/cards/60307.png
+09037,tskp,guardian,Martyr's Vambrace,asset,3,NA
+09051,tskp,seeker,Orphic Theory,asset,1,/bundles/cards/09051.png
+08731,eoec,neutral,Collected Works of Poe,asset,NA,NA
+03310,dca,rogue,Cheat Death,event,5,/bundles/cards/03310.png
+09124,tskp,neutral,Lurker in the Dark,enemy,NA,NA
+09125,tskp,neutral,Quantum Paradox,event,NA,NA
+09114,tskp,survivor,Katja Eastbank,asset,2,NA
+09113,tskp,survivor,Baseball Bat,asset,2,NA
+01557,rcore,rogue,Hot Streak,event,4,/bundles/cards/01557.png
+09035,tskp,guardian,Handcuffs,asset,2,NA
+86051,wog,neutral,Cloak of the Outer Realm,asset,NA,/bundles/cards/86051.png
+09050,tskp,seeker,Lab Coat,asset,1,NA
+86052,wog,neutral,Pocket Portal,asset,NA,/bundles/cards/86052.png

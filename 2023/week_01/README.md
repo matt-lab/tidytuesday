@@ -4,6 +4,22 @@ The data for this week concerns Arkham Horror, a cooperative card game where pla
 
 - `decks` - deck information (wide format)
 - `cards_in_decks` - cards in each deck (long format)
+- `investigators` - information about investigator cards
+- `cards` - information about non-investigator cards
+
+## Plots
+
+### Top investigators of 2022
+
+![image](top_investigators.png)
+
+### Top Edge of the Earth investigators of 2022
+
+![image](top_investigators_edge.png)
+
+### Top cards of 2022, for each faction
+
+![image](top_investigators_edge.png)
 
 ## Data Dictionary
 
@@ -49,5 +65,6 @@ The data for this week concerns Arkham Horror, a cooperative card game where pla
 
 ********************************************************
 
-Scripts to retrieve the data: 
-- `method/data_collection.R`
+Scripts to retrieve the data available in `scripts_webscraping`.
+
+Scripts to generate plots available in `scripts_plot`.
