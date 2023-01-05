@@ -3,6 +3,7 @@ library(lubridate) # handles date data
 library(ggimage) # adding images to ggplot
 library(magick) # cropping images
 library(showtext) # for fonts
+library(ggtext) # for text
 
 #### Import data ####
 data <- read_csv(
@@ -40,7 +41,6 @@ data_investigators <-  read_csv(
 investigators_in_decks <- data |>
     filter(version == 1) |>
     count(investigator_code) |>
-    arrange(n) |>
     left_join(data_investigators, by = "investigator_code")
 # Aggregate data so each row is an investigator
 investigators_in_decks <- investigators_in_decks |>
@@ -97,31 +97,22 @@ investigators_in_decks <- investigators_in_decks |>
 #### Create data ####
 
 my_theme <- function() {
-    # fonts
-    main_font = 'Cutive Mono'
-
     # colour
     colour.background = "#030303"
-    colour.text = "#F2F2F2"
+    colour.text = "#dbdbdb"
     
     # Begin construction of chart
     theme_bw(base_size = 15) +
-    
-    # Format background colour
-    theme(panel.background =
-        element_rect(fill = colour.background, colour = colour.background)) +
-    theme(plot.background  =
-        element_rect(fill = colour.background, colour = colour.background)) +
-    theme(panel.border     = element_rect(colour = colour.background)) +
-    theme(strip.background =
-        element_rect(fill = colour.background, colour = colour.background)) +
-    
+        
     # Format the grid
+    theme(panel.background = element_rect(fill = colour.background, color = colour.background)) +
+    theme(plot.background  = element_rect(fill = colour.background, color = colour.background)) +
+    theme(panel.border       = element_blank()) +
+    theme(panel.grid.major.x = element_line(colour = "#585858")) +
+    theme(panel.grid.minor.x = element_blank()) +
     theme(panel.grid.major.y = element_blank()) +
     theme(panel.grid.minor.y = element_blank()) +
-    theme(panel.grid.major.x = element_blank()) +
-    theme(panel.grid.minor.x = element_blank()) +
-    theme(axis.ticks       = element_blank()) +
+    theme(axis.ticks         = element_blank()) +
     
     # Format the legend
     theme(legend.position = "none") +
@@ -135,15 +126,14 @@ my_theme <- function() {
                                     size = 15, face = "bold")) +
                                     
     # Format title and axis labels
-    theme(plot.title       = element_text(colour = colour.text, size = 40, face = "bold", hjust = 0.5, family = main_font))+
-    theme(plot.subtitle    = element_text(colour = colour.text, size = 30, face = "bold", hjust = 0.5, family = main_font))+
-    theme(plot.caption     = element_text(colour = colour.text, size = 20, face = "bold", hjust = 0.5, family = main_font))+
-    theme(axis.title.x     = element_text(size=20, colour = colour.text, hjust = 0.5, vjust = 0.5,face = "bold", family = main_font)) +
-    theme(axis.title.y     = element_text(size=20, colour = colour.text, hjust = 0.5, vjust = 0.5,face = "bold", family = main_font)) +
-    theme(axis.text.x      = element_text(size=25, colour = colour.text, hjust = 0.5, vjust = 0.5,face = "bold", family = main_font)) +
-    theme(axis.text.y      = element_text(size=25, colour = colour.text, face = "bold", family = main_font)) +
-    theme(strip.text       = element_text(size=25, colour = colour.text, hjust = 0.5, vjust = 0.5,face = "bold", family = main_font)) +
-
+    theme(plot.title    = element_blank()) +
+    theme(plot.subtitle = element_blank()) +
+    theme(plot.caption  = element_blank()) +
+    theme(axis.title.x  = element_text(size = 25, colour = colour.text, hjust = 0.5, vjust = 0.5, face = "bold", family = main_font)) +
+    theme(axis.title.y  = element_blank()) +
+    theme(axis.text.x   = element_text(size = 20, colour = colour.text, hjust = 0.5, vjust = 0.5, face = "bold", family = main_font)) +
+    theme(axis.text.y   = element_blank()) +
+    theme(legend.position = "none") +
     # Plot margins
     theme(plot.margin = unit(c(0.35, 0.2, 0.3, 0.35), "cm"))
 }
@@ -156,10 +146,12 @@ faction_colours <- tibble(
 )
 
 # Plot specifications
-font_add_google("Cutive Mono", "Cutive Mono")
+main_font <- "Roboto Mono"
+font_add_google(main_font, main_font)
 showtext_opts(dpi = 300)
 showtext_auto(enable = TRUE)
 
+# Top investigators
 plot <- investigators_in_decks |>
     left_join(faction_colours, by = "faction") |>
     mutate(rank = order(n)) |>
@@ -181,8 +173,8 @@ plot <- investigators_in_decks |>
         vjust = -0.5,
         colour = "#dbdbdb",
         fontface = "bold",
-        family = "Cutive Mono") +
-    ylab("Number of decks made in 2022") +
+        family = main_font) +
+    ylab("Number of public decks made in 2022") +
     scale_y_continuous(
         breaks = seq(
             0,
@@ -192,12 +184,71 @@ plot <- investigators_in_decks |>
             0,
             ceiling(max(investigators_in_decks$n) / 50) * 50)) +
     coord_flip() +
-    my_theme() +
-    theme(panel.border = element_blank()) +
-    theme(axis.text.y = element_blank()) +
-    theme(axis.title.y = element_blank()) +
-    theme(axis.text.x = element_text(size = 20, color = "#dbdbdb")) +
-    theme(axis.title.x = element_text(size = 25, color = "#dbdbdb")) +
-    theme(legend.position = "none")
-ggbackground(plot, "assets/background.png")
+    annotate(
+        "text", x = 3.5, y = 200,
+        label = "Year of the Dog",
+        hjust = 0.5, vjust = 1,
+        size = 10, fontface = "bold", family = main_font, colour = "#dbdbdb") +
+    annotate(
+        "text", x = 3, y = 200,
+        label = str_c(
+            str_wrap(
+                '"Ashcan" Pete was the most popular investigator of 2022.',
+                27),
+            '\nData from ArkhamDB.'),
+        hjust = 0.5, vjust =1,
+        size = 7, family = main_font, colour = "#d7d7d7") +
+    my_theme()
+plot
+ggsave("top_investigators.png", width = 10, height = 10, units = "in", dpi = 300)
+
+# Top Scarlet Keys investigators
+plot <- investigators_in_decks |>
+    left_join(faction_colours, by = "faction") |>
+    mutate(rank = order(n)) |>
+    ggplot(aes(rank, n)) +
+    geom_bar(aes(colour = faction_colour), stat = "identity", width = 0.02) +
+    geom_image(
+        mapping = aes(image = image_circle, colour = faction_colour),
+        size = 0.069,
+        asp = 1) +
+    geom_image(
+        mapping = aes(image = image_circle),
+        size = 0.06,
+        asp = 1) +
+    scale_colour_identity() +
+    geom_text(
+        aes(label = investigator_name),
+        size = 8,
+        hjust = 1.2,
+        vjust = -0.5,
+        colour = "#dbdbdb",
+        fontface = "bold",
+        family = main_font) +
+    ylab("Number of public decks made in 2022") +
+    scale_y_continuous(
+        breaks = seq(
+            0,
+            ceiling(max(investigators_in_decks$n) / 50) * 50,
+            50),
+        limits = c(
+            0,
+            ceiling(max(investigators_in_decks$n) / 50) * 50)) +
+    coord_flip() +
+    annotate(
+        "text", x = 3.5, y = 200,
+        label = "Year of the Dog",
+        hjust = 0.5, vjust = 1,
+        size = 10, fontface = "bold", family = main_font, colour = "#dbdbdb") +
+    annotate(
+        "text", x = 3, y = 200,
+        label = str_c(
+            str_wrap(
+                '"Ashcan" Pete was the most popular investigator of 2022.',
+                27),
+            '\nData from ArkhamDB.'),
+        hjust = 0.5, vjust =1,
+        size = 7, family = main_font, colour = "#d7d7d7") +
+    my_theme()
+plot
 ggsave("top_investigators.png", width = 10, height = 10, units = "in", dpi = 300)
