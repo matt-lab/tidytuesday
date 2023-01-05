@@ -168,20 +168,20 @@ plot <- top_investigators |>
         width = 0.02) +
     geom_image(
         mapping = aes(image = image_circle, colour = faction_colour),
-        size = 0.069,
+        size = 0.089,
         asp = 1) +
     geom_image(
         mapping = aes(image = image_circle),
-        size = 0.06,
+        size = 0.08,
         asp = 1) +
     scale_colour_identity() +
     scale_fill_identity() +
     geom_text(
         aes(label = investigator_name),
         size = 8,
-        hjust = 1.2,
+        hjust = 1.4,
         vjust = -0.5,
-        colour = "#dbdbdb",
+        colour = "#a5a5a5",
         fontface = "bold",
         family = main_font) +
     ylab("Number of public decks made in 2022") +
@@ -228,20 +228,20 @@ plot <- top_investigators_edge |>
         stat = "identity", width = 0.02) +
     geom_image(
         mapping = aes(image = image_circle, colour = faction_colour),
-        size = 0.069,
+        size = 0.099,
         asp = 1) +
     geom_image(
         mapping = aes(image = image_circle),
-        size = 0.06,
+        size = 0.09,
         asp = 1) +
     scale_colour_identity() +
     scale_fill_identity() +
     geom_text(
         aes(label = investigator_name),
         size = 8,
-        hjust = 1.2,
+        hjust = 1.4,
         vjust = -0.5,
-        colour = "#dbdbdb",
+        colour = "#a5a5a5",
         fontface = "bold",
         family = main_font) +
     ylab("Number of public decks made in 2022") +
@@ -256,14 +256,14 @@ plot <- top_investigators_edge |>
     coord_flip() +
     annotate(
         "text", x = 2.5, y = 90,
-        label = "Destined to succeed",
+        label = "Destined to Succeed",
         hjust = 0.5, vjust = 1,
         size = 10, fontface = "bold", family = main_font, colour = "#dbdbdb") +
     annotate(
         "text", x = 2.3, y = 90,
         label = str_c(
             str_wrap(
-                'Lily is the most popular Edge of the Earth investigator of 2022.',
+                'Lily was the most popular Edge of the Earth investigator of 2022.',
                 27),
             '\nData from ArkhamDB.'),
         hjust = 0.5, vjust = 1,
@@ -274,7 +274,7 @@ ggsave("top_investigators_edge.png", width = 10, height = 10, units = "in", dpi 
 
 
 #### Top cards ####
-cards_in_decks <- read_csv(
+data_cards_in_decks <- read_csv(
     file = 'cards_in_decks.csv',
     col_types = cols(
         id = col_character(),
@@ -282,15 +282,154 @@ cards_in_decks <- read_csv(
         card_quantity = col_double())) |>
     filter(card_quantity > 0)
 
+data_cards <- read_csv(
+    file = 'cards.csv',
+    col_types = cols(
+        code = col_character(),
+        pack_code = col_character(),
+        faction_code = col_character(),
+        name = col_character(),
+        type_code = col_character(),
+        xp = col_double(),
+        imagesrc = col_character()
+    )) |>
+    rename(card_id = code)
+
 # Filter to only first version of decks
-cards_in_decks <- data |>
+popular_cards <- data |>
     filter(version == 1) |>
     select(id) |>
-    left_join(cards_in_decks, by = 'id')
-
-# Identify popular cards
-popular_cards <- cards_in_decks |>
+    left_join(data_cards_in_decks, by = 'id') |>
     count(card_id) |>
-    slice_max(n = 20, n)
+    left_join(data_cards, by = 'card_id') |>
+    filter(xp == 0) |>
+    filter(faction_code != 'neutral') |>
+    group_by(name) |>
+    summarise(
+        n = sum(n),
+        faction_code = faction_code[1],
+        imagesrc = imagesrc[1]) |>
+    group_by(faction_code) |>
+    slice_max(n = 10, n)
 
+# Update image link
+popular_cards <- popular_cards |>
+    mutate(image = str_c("https://arkhamdb.com", imagesrc))
 
+# Crop images
+
+crop_card <- function(image_url) {
+    image <- image_read(image_url)
+    # Use dimension information to crop image into a square
+    image_info(image)
+    width_offset <- floor(image_info(image)$width / 6)
+    new_width <- image_info(image)$width - (2 * width_offset)
+    height_offset <- floor(image_info(image)$height / 12)
+    new_height <- new_width
+    image_art <- image_crop(
+        image,
+        geometry = str_c(new_width, "x", new_height, "+", width_offset, "+", height_offset))
+    # Create mask
+    mask <- image_draw(image_blank(new_height, new_height))
+    symbols(
+        new_height/2,
+        new_height/2,
+        circles=(new_height/2)-3,
+        bg='black',
+        inches = FALSE,
+        add = TRUE)
+    dev.off()
+    # Combine images
+    image_circle <- image_composite(image_art, mask, operator = 'copyopacity')
+    # Write image
+    path <- str_c(tempfile(), ".png")
+    image_write(image_circle, path = path, format = "png")
+    return(path)
+}
+
+popular_cards <- popular_cards |>
+    rowwise() |>
+    mutate(image_circle = crop_card(image)) |>
+    ungroup()
+
+factions_to_plot <- unique(popular_cards$faction_code)
+
+for (faction in factions_to_plot) {
+    plot_file <- sprintf("top_cards_%s.png", faction)
+    plot_data <- popular_cards |>
+        filter(faction_code == faction) |>
+        rename(faction = faction_code) |>
+        left_join(faction_colours, by = "faction") |>
+        mutate(rank = rank(n, ties.method = 'first'))
+    
+    # Ensure there is room for a title on the vertical axis
+    left_of_title <- plot_data |>
+        filter(rank == 5) |>
+        pull(n)
+    max_decks <- max(ceiling(max(plot_data$n) / 100) * 100, left_of_title + 400)
+
+    # Roughly, 45 characters fit horizontally on the plot
+    # Calculate a unit-to-character ratio
+    char_ratio <- floor(max_decks / 50)
+    image_offset <- ceiling(.09 * max_decks)
+    plot_data <- plot_data |>
+        mutate(name_space = nchar(name) * char_ratio) |>
+        mutate(name_space_available = (n - image_offset)) |>
+        rowwise() |>
+        mutate(name = ifelse(
+            name_space > name_space_available,
+            str_wrap(name, floor(n / (char_ratio * 2))),
+            str_c(name, "\n"))) |>
+        ungroup()
+
+    plot <- plot_data |>
+        ggplot(aes(rank, n)) +
+        geom_bar(
+            aes(colour = faction_colour, fill = faction_colour),
+            stat = "identity", width = 0.02) +
+        geom_image(
+            mapping = aes(image = image_circle, colour = faction_colour),
+            size = 0.089,
+            asp = 1) +
+        geom_image(
+            mapping = aes(image = image_circle),
+            size = 0.08,
+            asp = 1) +
+        scale_colour_identity() +
+        scale_fill_identity() +
+        geom_text(
+            aes(y = n / 2, label = name),
+            size = 8,
+            hjust = 0.5,
+            vjust = 0.5,
+            colour = "#a5a5a5",
+            fontface = "bold",
+            family = main_font) +
+        ylab("Number of public decks made in 2022") +
+        scale_y_continuous(
+            breaks = seq(
+                0,
+                max_decks,
+                100),
+            limits = c(
+                0,
+                max_decks)) +
+    annotate(
+        "text", x = 4.5, y = max_decks - (max_decks * .20),
+        label = str_to_title(sprintf("Top %s cards", faction)),
+        hjust = 0.5, vjust = 1,
+        size = 10, fontface = "bold", family = main_font, colour = "#dbdbdb") +
+    annotate(
+        "text", x = 4, y = max_decks - (max_decks * .20),
+        label = str_c(
+            str_wrap(
+                sprintf('Arkham Horror has never been more diverse, but there are some 0 xp staples of %s deckbuilding.', str_to_title(faction)),
+                23),
+            '\nData from ArkhamDB.'),
+        hjust = 0.5, vjust = 1,
+        size = 7, family = main_font, colour = "#d7d7d7") +
+        coord_flip() +
+        my_theme()
+    plot
+    ggsave(plot_file, width = 10, height = 10, units = "in", dpi = 300)
+}

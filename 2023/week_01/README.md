@@ -63,6 +63,18 @@ The data for this week concerns Arkham Horror, a cooperative card game where pla
 |name |character |Name of investigator |
 |imagesrc |character |Path to card image |
 
+### `cards.csv`
+
+|variable        |class     |description |
+|:---------------|:---------|:-----------|
+|code |character |Identifier of card |
+|pack_code |character |Unique identifier for investigator pack |
+|faction_code |character |Investigator faction |
+|name |character |Name of investigator |
+|type_code |character |Type of card |
+|xp |integer |Game experience required to purchase the card |
+|imagesrc |character |Path to card image |
+
 ********************************************************
 
 Scripts to retrieve the data available in `scripts_webscraping`.
