@@ -371,16 +371,17 @@ for (faction in factions_to_plot) {
     # Roughly, 45 characters fit horizontally on the plot
     # Calculate a unit-to-character ratio
     char_ratio <- floor(max_decks / 50)
-    image_offset <- ceiling(.09 * max_decks)
+    image_offset <- ceiling(.09 * max_decks / 2)
     plot_data <- plot_data |>
-        mutate(name_space = nchar(name) * char_ratio) |>
-        mutate(name_space_available = (n - image_offset)) |>
+        mutate(name_space = n / 2 + 0.5 * (nchar(name) * char_ratio)) |>
+        mutate(name_space_available = n - image_offset) |>
         rowwise() |>
         mutate(name = ifelse(
             name_space > name_space_available,
             str_wrap(name, floor(n / (char_ratio * 2))),
             str_c(name, "\n"))) |>
-        ungroup()
+        ungroup() |>
+        mutate(name = ifelse(str_detect(name, 'Cigarette'), 'Lucky\nCigarette Case', name))
 
     plot <- plot_data |>
         ggplot(aes(rank, n)) +
