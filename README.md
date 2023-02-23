@@ -12,7 +12,7 @@ This repository is organised into years (e.g., [2023](2023)) and weeks (e.g., [w
 
 ## Some Examples
 
-### [The Colour Pairings of Boss Ross](2023/week_08/)
+### [The Colour Pairings of Boss Ross (2023/week 8)](2023/week_08/)
 
 ![image](2023/week_08/plot.png)
 
