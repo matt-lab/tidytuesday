@@ -207,6 +207,20 @@ data |>
         family = text_font,
         hjust = 0.5,
         vjust = 0.5) +
+    annotate(
+        "text",
+        x = floor(0.65 * max(data$id)),
+        y = 10^(log10(y_max) + 1),
+        label = "Number\nof tweets",
+        colour = colour_text,
+        size = 12,
+        alpha = 0.8,
+        angle = 0,
+        fontface = "bold",
+        family = text_font,
+        lineheight = 0.4,
+        hjust = 1,
+        vjust = 1) +
     # Will be a polar plot
     coord_polar(clip = "off") +
     # Log scale
