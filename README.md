@@ -12,6 +12,10 @@ This repository is organised into years (e.g., [2023](2023)) and weeks (e.g., [w
 
 ## Some Examples
 
+### [Locating AfriSenti's Languages (2023/week 9)](2023/week_09/)
+
+![image](2023/week_09/plot.png)
+
 ### [The Colour Pairings of Boss Ross (2023/week 8)](2023/week_08/)
 
 ![image](2023/week_08/plot.png)
